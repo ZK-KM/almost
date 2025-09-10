@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
+<link rel="stylesheet" href="static/dashboard.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Dashboard</h2>
+  <div class="nav-item active" data-tab="products-tab">Products</div>
+  <div class="nav-item" data-tab="orders-tab">Orders</div>
+  <div class="nav-item" data-tab="settings-tab">Settings</div>
+  <div class="nav-item" data-tab="download-tab">Download</div>
+</div>
+
+<div class="tab-section" id="download-tab">
+    <div class="download-container">
+        <button class="download-btn" onclick="window.location.href='/download'">
+            Download ZIP
+        </button>
+    </div>
+</div>
+
+
+<div class="main">
+  <div class="tab-section active" id="products-tab">
+    <div class="form-box">
+      <h3>Add Product</h3>
+      <label for="brandSelect">Brand:</label>
+      <select id="brandSelect"></select>
+
+      <label for="categorySelect">Category:</label>
+      <select id="categorySelect"></select>
+
+      <label for="newCategory">New Category:</label>
+      <input id="newCategory" placeholder="Add a category name">
+      <button id="addCategoryBtn">Add Category</button><br><br>
+
+      <input id="prodTitle" placeholder="Title"><br>
+      <input id="prodDesc" placeholder="Description"><br>
+      <input id="prodImage" type="file"><br>
+      <img id="prodPreview" class="img-preview" src="" alt="Preview" style="display:none;">
+      <button id="addBtn">Add Product</button>
+    </div>
+
+    <div class="products-grid" id="products"></div>
+  </div>
+
+  <div class="tab-section" id="orders-tab">
+    <h3>Orders (Fake Content)</h3>
+    <p>Coming soon...</p>
+  </div>
+
+  <div class="tab-section" id="settings-tab">
+    <h3>Settings (Fake Content)</h3>
+    <p>Coming soon...</p>
+  </div>
+</div>
+
+<div id="editModal">
+  <div class="modal-content">
+    <h3>Edit Product</h3>
+    <input id="editTitle" placeholder="Title"><br>
+    <input id="editDesc" placeholder="Description"><br>
+    <input id="editImage" type="file"><br>
+    <img id="editPreview" class="img-preview" src="" alt="Preview" style="display:none;">
+    <button id="saveEdit">Save</button>
+    <button onclick="closeEditModal()">Cancel</button>
+  </div>
+</div>
+
+<script>
+const brands = {{ data["brands"]|tojson }};
+const brandSelect = document.getElementById("brandSelect");
+const categorySelect = document.getElementById("categorySelect");
+const productsDiv = document.getElementById("products");
+let currentBrand = null, currentCategory = null, editingProductId = null;
+
+// Populate brands
+brands.forEach(b => {
+  const opt = document.createElement("option");
+  opt.value = b.id;
+  opt.textContent = b.name;
+  brandSelect.appendChild(opt);
+});
+
+// Handle brand change
+brandSelect.addEventListener("change", () => {
+  categorySelect.innerHTML = "";
+  const brand = brands.find(b => b.id === brandSelect.value);
+  brand.categories.forEach(c => {
+    const opt = document.createElement("option");
+    opt.value = c.id;
+    opt.textContent = c.name;
+    categorySelect.appendChild(opt);
+  });
+  currentBrand = brandSelect.value;
+  currentCategory = categorySelect.value;
+  loadProducts();
+});
+
+// Handle category change
+categorySelect.addEventListener("change", () => {
+  currentCategory = categorySelect.value;
+  loadProducts();
+});
+
+// Default selection
+if (brands.length) {
+  brandSelect.value = brands[0].id;
+  brandSelect.dispatchEvent(new Event("change"));
+}
+
+// Add category
+document.getElementById("addCategoryBtn").addEventListener("click", async () => {
+  const name = document.getElementById("newCategory").value.trim();
+  if (!name) return alert("Enter a category name");
+
+  const fd = new FormData();
+  fd.append("name", name);
+
+  const res = await fetch(`/categories/${currentBrand}`, { method: "POST", body: fd });
+  const data = await res.json();
+  if (res.ok) {
+    const opt = document.createElement("option");
+    opt.value = data.category.id;
+    opt.textContent = data.category.name;
+    categorySelect.appendChild(opt);
+    categorySelect.value = data.category.id;
+    currentCategory = data.category.id;
+    loadProducts();
+    document.getElementById("newCategory").value = "";
+  } else {
+    alert(data.error || "Failed to add category");
+  }
+});
+
+// Load products
+async function loadProducts() {
+  if(!currentBrand||!currentCategory) return;
+  const res = await fetch(`/products/${currentBrand}/${currentCategory}`);
+  const data = await res.json();
+  productsDiv.innerHTML = "";
+  data.forEach(p=>{
+    const div=document.createElement("div");
+    div.className="product-card";
+    div.innerHTML=`
+      <img src="/static/${p.image}" alt="">
+      <h3>${p.title}</h3>
+      <p>${p.description}</p>
+      <p>Status: ${p.active?"✅ Active":"❌ Inactive"}</p>
+      <button onclick="editProduct('${p.id}')">Edit</button>
+      <button onclick="deleteProduct('${p.id}')">Delete</button>
+      <button onclick="toggleProduct('${p.id}')">Toggle</button>
+    `;
+    productsDiv.appendChild(div);
+  });
+}
+
+// Preview add
+document.getElementById("prodImage").addEventListener("change", e=>{
+  const file=e.target.files[0];
+  const preview=document.getElementById("prodPreview");
+  if(file){ preview.src=URL.createObjectURL(file); preview.style.display="block"; }
+  else{ preview.src=""; preview.style.display="none"; }
+});
+
+// Preview edit
+document.getElementById("editImage").addEventListener("change", e=>{
+  const file=e.target.files[0];
+  const preview=document.getElementById("editPreview");
+  if(file){ preview.src=URL.createObjectURL(file); preview.style.display="block"; }
+  else{ preview.src=""; preview.style.display="none"; }
+});
+
+// Add product
+document.getElementById("addBtn").addEventListener("click", async ()=>{
+  const fd=new FormData();
+  const title=document.getElementById("prodTitle").value;
+  fd.append("title",title);
+  fd.append("name",title);
+  fd.append("description",document.getElementById("prodDesc").value);
+  if(document.getElementById("prodImage").files[0]) fd.append("image",document.getElementById("prodImage").files[0]);
+  await fetch(`/products/${currentBrand}/${currentCategory}`, {method:"POST", body:fd});
+  loadProducts();
+  document.getElementById("prodTitle").value="";
+  document.getElementById("prodDesc").value="";
+  document.getElementById("prodImage").value="";
+  const preview=document.getElementById("prodPreview"); preview.src=""; preview.style.display="none";
+});
+
+// Edit
+window.editProduct = async function(id){
+  editingProductId=id;
+  const res=await fetch(`/products/${currentBrand}/${currentCategory}`);
+  const products=await res.json();
+  const product=products.find(p=>p.id===id);
+  document.getElementById("editTitle").value=product.title;
+  document.getElementById("editDesc").value=product.description;
+  if(product.image){ const preview=document.getElementById("editPreview"); preview.src="/static/"+product.image; preview.style.display="block"; }
+  document.getElementById("editModal").style.display="flex";
+}
+
+document.getElementById("saveEdit").addEventListener("click", async ()=>{
+  const fd=new FormData();
+  fd.append("title",document.getElementById("editTitle").value);
+  fd.append("description",document.getElementById("editDesc").value);
+  if(document.getElementById("editImage").files[0]) fd.append("image",document.getElementById("editImage").files[0]);
+  await fetch(`/products/${currentBrand}/${currentCategory}/${editingProductId}`, {method:"PUT", body:fd});
+  closeEditModal();
+  loadProducts();
+});
+
+function closeEditModal(){
+  document.getElementById("editModal").style.display="none";
+}
+
+// Delete
+window.deleteProduct=async function(id){
+  if(!confirm("Delete?")) return;
+  await fetch(`/products/${currentBrand}/${currentCategory}/${id}`, {method:"DELETE"});
+  loadProducts();
+}
+
+// Toggle
+window.toggleProduct=async function(id){
+  await fetch(`/products/${currentBrand}/${currentCategory}/${id}/toggle`, {method:"PATCH"});
+  loadProducts();
+}
+
+// Tabs
+document.querySelectorAll(".nav-item").forEach(tab=>{
+  tab.addEventListener("click",()=>{
+    document.querySelectorAll(".nav-item").forEach(t=>t.classList.remove("active"));
+    tab.classList.add("active");
+    const target=tab.dataset.tab;
+    document.querySelectorAll(".tab-section").forEach(s=>s.classList.remove("active"));
+    document.getElementById(target).classList.add("active");
+  });
+});
+</script>
+</body>
+</html>
