@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brands & Products</title>
+
+  <!-- Boxicons for menu icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="loader-overlay">
+  <span class="loader">Load&nbsp;ng</span>
+</div>
+  <!-- =========================
+       Header
+  ========================== -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="Untitled design.svg 3.svg" alt="Ritaj Company Logo">
+    </a>
+
+    <input type="checkbox" id="menu-toggle">
+
+    <label for="menu-toggle" class="menu-icons">
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <i class='bx bx-x' id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="index.html" style="--i:1;">الرئيسية<span></span></a>
+      <a href="index.html#us" style="--i:2;">من نحن؟<span></span></a>
+      <a href="index.html#our-view" style="--i:3;">رؤيتنا<span></span></a>
+      <a href="index.html#services" style="--i:4;">خدماتنا<span></span></a>
+      <a href="brands.html" style="--i:5;">وكالاتنا<span></span></a>
+      <a href="index.html#locations" style="--i:6;">مواقعنا<span></span></a>
+      <a href="index.html#contacts" style="--i:7;">تواصل معنا<span></span></a>
+    </nav>
+    <ul class="lang-switcher">
+  <li><a href="#" class="lang-btn"><button>EN</button></a></li>
+  <li><a href="#" class="lang-btn"><button>كرد</button></a></li>
+</ul>
+  </header>
+
+  <main style="margin-top: 3.3rem;"> <!-- Push content below fixed header -->
+
+    <!-- =========================
+         Our Brands
+    ========================== -->
+    <section class="brands">
+      <h2><span class="gradient">علاماتنا التجارية</span></h2>
+      <div class="brands-list">
+        <div class="brand" data-brand="brand1">
+          <img src="static/logos/HASAWI.webp" alt="Brand 1">
+        </div>
+        <div class="brand" data-brand="brand2">
+          <img src="static/logos/TVS.webp" alt="Brand 2">
+        </div>
+        <div class="brand" data-brand="brand3">
+          <img src="static/logos/GAROW.webp" alt="GAROW 3">
+        </div>
+        <div class="brand" data-brand="brand4">
+          <img src="static/logos/OPAl.webp" alt="Brand 4">
+        </div>
+        <div class="brand" data-brand="brand5">
+          <img src="static/logos/SUBS.webp" alt="Brand 5">
+        </div>
+        <div class="brand" data-brand="brand6">
+          <img src="static/logos/GREE.webp" alt="Brand 6">
+        </div>
+        <div class="brand" data-brand="brand7">
+          <img src="static/logos/WESTIN.webp" alt="Brand 7">
+        </div>
+        <div class="brand" data-brand="brand8">
+          <img src="static/logos/DELONGHI.webp" alt="Brand 8">
+        </div>
+        <div class="brand" data-brand="brand9">
+          <img src="static/logos/ELEKTA.webp" alt="Brand 9">
+        </div>
+        <div class="brand" data-brand="brand10">
+          <img src="static/logos/HOOVER.webp" alt="Brand 10">
+        </div>
+        <div class="brand" data-brand="brand11">
+          <img src="static/logos/ALPACA.webp" alt="Brand 11">
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         Products Section (rendered from products.json)
+    ========================= -->
+    <section class="products" id="products-section">
+      <!-- Product sections will be injected here by script.js using products.json -->
+    </section>
+
+  </main>
+
+  <!-- =========================
+       JavaScript
+  ========================== -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
