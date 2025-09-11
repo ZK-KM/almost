@@ -22,7 +22,8 @@ UPLOAD_FOLDER = os.path.join("static", "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-DATA_FILE = "products.json"
+# JSON moved to static
+DATA_FILE = os.path.join("static", "products.json")
 
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD_HASH = generate_password_hash("password123")
