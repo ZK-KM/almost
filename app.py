@@ -22,7 +22,6 @@ UPLOAD_FOLDER = os.path.join("static", "uploads")
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
-# JSON moved to static
 DATA_FILE = os.path.join("static", "products.json")
 
 ADMIN_USERNAME = "admin"
@@ -52,12 +51,9 @@ def login_required(f):
 
 # ------------------ PUBLIC PAGES ------------------
 @app.route("/")
-def index():
-    return render_template("index.html")
-
-@app.route("/brands")
-def brands():
-    return render_template("brands.html")
+def index(): return render_template("index.html")
+@app.route("/brands") 
+def brands(): return render_template("brands.html")
 
 # ------------------ CAPTCHA ------------------
 def generate_captcha_text(length=5):
@@ -84,8 +80,7 @@ def login():
         if username == ADMIN_USERNAME and check_password_hash(ADMIN_PASSWORD_HASH, password):
             session["admin_logged_in"] = True
             return redirect(url_for("dashboard"))
-        else:
-            return "Invalid credentials", 401
+        return "Invalid credentials", 401
     return """
         <form method="POST">
             <input name="username" placeholder="Username"><br>
@@ -101,7 +96,7 @@ def logout():
     session.pop("admin_logged_in", None)
     return redirect(url_for("login"))
 
-# ------------------ DASHBOARD (ADMIN) ------------------
+# ------------------ DASHBOARD ------------------
 @app.route("/dashboard")
 @login_required
 def dashboard():
@@ -233,22 +228,40 @@ def add_category(brand_id):
     save_data(data)
     return jsonify({"message": "Category added", "category": new_category})
 
-# ------------------ DOWNLOAD ZIP ------------------
+# ------------------ DOWNLOAD / UPLOAD ZIP ------------------
 @app.route("/download")
 @login_required
 def download_zip():
     memory_file = BytesIO()
     with zipfile.ZipFile(memory_file, 'w') as zf:
-        # Add JSON file
         zf.write(DATA_FILE, arcname="products.json")
-        # Add static folder
-        for root, dirs, files in os.walk("static"):
+        for root, dirs, files in os.walk(app.config["UPLOAD_FOLDER"]):
             for file in files:
                 file_path = os.path.join(root, file)
-                arcname = os.path.relpath(file_path, start=".")
+                arcname = os.path.relpath(file_path, start="static")
                 zf.write(file_path, arcname=arcname)
     memory_file.seek(0)
     return send_file(memory_file, download_name="backup.zip", as_attachment=True)
+
+@app.route("/upload", methods=["POST"])
+@login_required
+def upload_zip():
+    if "file" not in request.files:
+        return "No file uploaded", 400
+    file = request.files["file"]
+    if not file.filename.endswith(".zip"):
+        return "Invalid file type", 400
+
+    zip_data = BytesIO(file.read())
+    with zipfile.ZipFile(zip_data, 'r') as zf:
+        for member in zf.namelist():
+            if member == "products.json":
+                zf.extract(member, "static")
+                os.replace("static/products.json", DATA_FILE)
+            elif member.startswith("uploads/"):
+                zf.extract(member, "static")
+
+    return redirect(url_for("dashboard"))
 
 # ------------------ RUN ------------------
 if __name__ == "__main__":
