@@ -49,6 +49,15 @@ def login_required(f):
     wrapper.__name__ = f.__name__
     return wrapper
 
+# ------------------ PUBLIC PAGES ------------------
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/brands")
+def brands():
+    return render_template("brands.html")
+
 # ------------------ CAPTCHA ------------------
 def generate_captcha_text(length=5):
     return ''.join(random.choices(string.ascii_uppercase + string.digits, k=length))
@@ -91,8 +100,8 @@ def logout():
     session.pop("admin_logged_in", None)
     return redirect(url_for("login"))
 
-# ------------------ DASHBOARD ------------------
-@app.route("/")
+# ------------------ DASHBOARD (ADMIN) ------------------
+@app.route("/dashboard")
 @login_required
 def dashboard():
     data = load_data()
