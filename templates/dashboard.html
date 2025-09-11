@@ -72,30 +72,50 @@
 </div>
 
 <script>
-const brands = {{ data["brands"]|tojson }};
+let brands = [];
 const brandSelect = document.getElementById("brandSelect");
 const categorySelect = document.getElementById("categorySelect");
 const productsDiv = document.getElementById("products");
 let currentBrand = null, currentCategory = null, editingProductId = null;
 
-// Populate brands
-brands.forEach(b => {
-  const opt = document.createElement("option");
-  opt.value = b.id;
-  opt.textContent = b.name;
-  brandSelect.appendChild(opt);
-});
+// Fetch products.json from static folder
+fetch("/static/products.json")
+  .then(res => res.json())
+  .then(data => {
+    brands = data.brands || [];
+
+    // Populate brands dropdown
+    brands.forEach(b => {
+      const opt = document.createElement("option");
+      opt.value = b.id;
+      opt.textContent = b.name;
+      brandSelect.appendChild(opt);
+    });
+
+    // Default selection
+    if (brands.length) {
+      brandSelect.value = brands[0].id;
+      brandSelect.dispatchEvent(new Event("change"));
+    }
+  })
+  .catch(err => {
+    console.error("Failed to load products.json", err);
+    productsDiv.innerHTML = '<p class="error">⚠️ فشل تحميل المنتجات. حاول مرة أخرى لاحقًا.</p>';
+  });
 
 // Handle brand change
 brandSelect.addEventListener("change", () => {
   categorySelect.innerHTML = "";
   const brand = brands.find(b => b.id === brandSelect.value);
+  if (!brand) return;
+
   brand.categories.forEach(c => {
     const opt = document.createElement("option");
     opt.value = c.id;
     opt.textContent = c.name;
     categorySelect.appendChild(opt);
   });
+
   currentBrand = brandSelect.value;
   currentCategory = categorySelect.value;
   loadProducts();
@@ -106,12 +126,6 @@ categorySelect.addEventListener("change", () => {
   currentCategory = categorySelect.value;
   loadProducts();
 });
-
-// Default selection
-if (brands.length) {
-  brandSelect.value = brands[0].id;
-  brandSelect.dispatchEvent(new Event("change"));
-}
 
 // Add category
 document.getElementById("addCategoryBtn").addEventListener("click", async () => {
@@ -139,18 +153,20 @@ document.getElementById("addCategoryBtn").addEventListener("click", async () => 
 
 // Load products
 async function loadProducts() {
-  if(!currentBrand||!currentCategory) return;
+  if(!currentBrand || !currentCategory) return;
   const res = await fetch(`/products/${currentBrand}/${currentCategory}`);
   const data = await res.json();
+
   productsDiv.innerHTML = "";
-  data.forEach(p=>{
-    const div=document.createElement("div");
-    div.className="product-card";
-    div.innerHTML=`
+
+  data.forEach(p => {
+    const div = document.createElement("div");
+    div.className = "product-card";
+    div.innerHTML = `
       <img src="/static/${p.image}" alt="">
       <h3>${p.title}</h3>
       <p>${p.description}</p>
-      <p>Status: ${p.active?"✅ Active":"❌ Inactive"}</p>
+      <p>Status: ${p.active ? "✅ Active" : "❌ Inactive"}</p>
       <button onclick="editProduct('${p.id}')">Edit</button>
       <button onclick="deleteProduct('${p.id}')">Delete</button>
       <button onclick="toggleProduct('${p.id}')">Toggle</button>
@@ -243,5 +259,6 @@ document.querySelectorAll(".nav-item").forEach(tab=>{
 </script>
 </body>
 </html>
+
 
 
