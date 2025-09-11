@@ -12,17 +12,21 @@
   <div class="nav-item active" data-tab="products-tab">Products</div>
   <div class="nav-item" data-tab="orders-tab">Orders</div>
   <div class="nav-item" data-tab="settings-tab">Settings</div>
-  <div class="nav-item" data-tab="download-tab">Download</div>
+  <div class="nav-item" data-tab="download-tab">Backup</div>
 </div>
 
 <div class="tab-section" id="download-tab">
-    <div class="download-container">
-        <button class="download-btn" onclick="window.location.href='/download'">
-            Download ZIP
-        </button>
-    </div>
-</div>
+  <div class="download-container">
+    <button class="download-btn" onclick="window.location.href='/download'">
+      Download Backup
+    </button>
 
+    <form action="/upload" method="post" enctype="multipart/form-data" style="margin-top:20px;">
+      <input type="file" name="file" accept=".zip" required>
+      <button type="submit">Upload Backup</button>
+    </form>
+  </div>
+</div>
 
 <div class="main">
   <div class="tab-section active" id="products-tab">
@@ -84,7 +88,6 @@ fetch("/static/products.json")
   .then(data => {
     brands = data.brands || [];
 
-    // Populate brands dropdown
     brands.forEach(b => {
       const opt = document.createElement("option");
       opt.value = b.id;
@@ -92,7 +95,6 @@ fetch("/static/products.json")
       brandSelect.appendChild(opt);
     });
 
-    // Default selection
     if (brands.length) {
       brandSelect.value = brands[0].id;
       brandSelect.dispatchEvent(new Event("change"));
@@ -100,10 +102,10 @@ fetch("/static/products.json")
   })
   .catch(err => {
     console.error("Failed to load products.json", err);
-    productsDiv.innerHTML = '<p class="error">⚠️ فشل تحميل المنتجات. حاول مرة أخرى لاحقًا.</p>';
+    productsDiv.innerHTML = '<p class="error">⚠️ Failed to load products. Try again later.</p>';
   });
 
-// Handle brand change
+// Brand change
 brandSelect.addEventListener("change", () => {
   categorySelect.innerHTML = "";
   const brand = brands.find(b => b.id === brandSelect.value);
@@ -121,7 +123,7 @@ brandSelect.addEventListener("change", () => {
   loadProducts();
 });
 
-// Handle category change
+// Category change
 categorySelect.addEventListener("change", () => {
   currentCategory = categorySelect.value;
   loadProducts();
@@ -175,7 +177,7 @@ async function loadProducts() {
   });
 }
 
-// Preview add
+// Preview add/edit
 document.getElementById("prodImage").addEventListener("change", e=>{
   const file=e.target.files[0];
   const preview=document.getElementById("prodPreview");
@@ -183,7 +185,6 @@ document.getElementById("prodImage").addEventListener("change", e=>{
   else{ preview.src=""; preview.style.display="none"; }
 });
 
-// Preview edit
 document.getElementById("editImage").addEventListener("change", e=>{
   const file=e.target.files[0];
   const preview=document.getElementById("editPreview");
@@ -259,6 +260,3 @@ document.querySelectorAll(".nav-item").forEach(tab=>{
 </script>
 </body>
 </html>
-
-
-
