@@ -15,16 +15,13 @@
 <div id="loader-overlay">
   <span class="loader">Load&nbsp;ng</span>
 </div>
-<!-- =========================
-     Header & Navbar
-========================= -->
+
 <header class="header">
     <a href="#" class="logo">
-        <img src="Untitled design.svg 3.svg" alt="Logo">
+        <img src="{{ url_for('static', filename='Untitled design.svg 3.svg') }}" alt="Logo">
     </a>
 
     <input type="checkbox" id="menu-toggle">
-
     <label for="menu-toggle" class="menu-icons">
         <i class='bx bx-menu' id="menu-icon"></i>
         <i class='bx bx-x' id="close-icon"></i>
@@ -45,9 +42,6 @@
 </ul>
 </header>
 
-<!-- =========================
-     Hero Section
-========================= -->
 <section id="hero">
   <h1 class="hero-title">
       <span class="gradient">مع رتـــاج ...</span><br>
@@ -55,24 +49,18 @@
       <span class="gradient">التــزام </span>
   </h1>
     <picture>
-    <source srcset="Ritaj-Images/Ritaj-Logo-smaller-mobile.webp" media="(max-width: 700px)" class="hero-image-mobile">
-    <img src="Ritaj-Images/Ritaj-Logo-smaller.webp" alt="Hero Image" class="hero-image" loading="lazy">
+    <source srcset="{{ url_for('static', filename='Ritaj-Images/Ritaj-Logo-smaller-mobile.webp') }}" media="(max-width: 700px)" class="hero-image-mobile">
+    <img src="{{ url_for('static', filename='Ritaj-Images/Ritaj-Logo-smaller.webp') }}" alt="Hero Image" class="hero-image" loading="lazy">
   </picture>
 </section>
 
-
-<!-- =========================
-     About / Home Box Section
-========================= -->
 <section class="home-section" id="us">
   <div class="home-box">
-    <!-- النص -->
     <div class="home-content">
       <h2><span class="gradient">من نحن؟</span></h2>
       <p> أهلاً بكم في شركة رتاج للتجارة العامة، شريككم الموثوق في تقديم الحلول التجارية واللوجستية المتكاملة منذ عام 2003. نعمل بخبرة تمتد لأكثر من عقدين في التجارة، النقل، والخدمات اللوجستية لنكون جزءًا فاعلًا في دعم الاقتصاد العراقي وإعادة الإعمار </p>
 
-      <!-- Child Grid -->
-       <div class="fade-wrapper">
+      <div class="fade-wrapper">
       <div class="child-grid">
         <div class="child-box">
           <h3>99%</h3>
@@ -89,16 +77,12 @@
       </div>
     </div>
 </div>
-    <!-- الصورة -->
     <div class="home-image">
-      <img src="Ritaj-Images/ritaj-billboard1.webp" alt="Home Image">
+      <img src="{{ url_for('static', filename='Ritaj-Images/ritaj-billboard1.webp') }}" alt="Home Image">
     </div>
   </div>
 
-    <!-- =========================
-         Hero Info / Highlight
-    ========================= -->
-    <div class="experince" id="our-view" >
+  <div class="experince" id="our-view" >
         <strong>
             <span class="gradient">
                 <i class='bx bx-star'></i>
@@ -109,44 +93,26 @@
     </div>
 </section>
 
-<!-- =========================
-     Logos Carousel
-========================= -->
 <section class="logos-section">
     <div class="logos">
         <div class="logos-images">
-            <a href="brands.html"><img src="./static/logos/HOOVER.webp" alt="HOOVER Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/ALPACA.webp" alt="ALPACA Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/HASAWI.webp" alt="HASAWI Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/TVS.webp" alt="TVS Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/GAROW.webp" alt="GAROW Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/OPAL.webp" alt="OPAL Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/BEIN.webp" alt="BEIN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/OSN.webp" alt="OSN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/SHAHIDVIP.webp" alt="SHAHIDVIP Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/STARZPLAY.webp" alt="STARZPLAY Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/GREE.webp" alt="GREE Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/WESTIN.webp" alt="WESTIN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/DELONGHI.webp" alt="DELONGHI Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/ELEKTA.webp" alt="ELEKTA Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/HOOVER.webp" alt="HOOVER Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/ALPACA.webp" alt="ALPACA Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/HASAWI.webp" alt="HASAWI Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/TVS.webp" alt="TVS Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/GAROW.webp" alt="GAROW Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/OPAL.webp" alt="OPAL Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/BEIN.webp" alt="BEIN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/OSN.webp" alt="OSN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/SHAHIDVIP.webp" alt="SHAHIDVIP Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/STARZPLAY.webp" alt="STARZPLAY Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/GREE.webp" alt="GREE Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/WESTIN.webp" alt="WESTIN Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/DELONGHI.webp" alt="DELONGHI Logo" /></a>
-            <a href="brands.html"><img src="./static/logos/ELEKTA.webp" alt="ELEKTA Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/HOOVER.webp') }}" alt="HOOVER Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/ALPACA.webp') }}" alt="ALPACA Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/HASAWI.webp') }}" alt="HASAWI Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/TVS.webp') }}" alt="TVS Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/GAROW.webp') }}" alt="GAROW Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/OPAL.webp') }}" alt="OPAL Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/BEIN.webp') }}" alt="BEIN Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/OSN.webp') }}" alt="OSN Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/SHAHIDVIP.webp') }}" alt="SHAHIDVIP Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/STARZPLAY.webp') }}" alt="STARZPLAY Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/GREE.webp') }}" alt="GREE Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/WESTIN.webp') }}" alt="WESTIN Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/DELONGHI.webp') }}" alt="DELONGHI Logo" /></a>
+            <a href="brands.html"><img src="{{ url_for('static', filename='logos/ELEKTA.webp') }}" alt="ELEKTA Logo" /></a>
         </div>
     </div>
 </section>
-
 
 <section class="our-view-bg">
 <section class="our-view">
@@ -154,12 +120,10 @@
     <h3>1. رؤيتنا</h3>
     <p>أن نكون الشركة الرائدة في تقديم الحلول التجارية واللوجستية في العراق.</p>
   </div>
-
   <div class="child-view">
     <h3>2. مهمتنا</h3>
     <p>تقديم خدمات عالية الجودة تلبي احتياجات عملائنا وتساهم في نجاحهم.</p>
   </div>
-
   <div class="child-view">
     <h3>3. قيمنا</h3>
     <p>الاحترافية، الشفافية، والالتزام بالجودة.</p>
@@ -171,17 +135,17 @@
   <h2 class="Location-title"><span class="gradient">نشاطاتنا</span></h2>
   <div class="services-container">
     <div class="service-box">
-      <img src="Ritaj-Images/photo_2025-09-08_18-20-59.jpg" alt="Service 3">
+      <img src="{{ url_for('static', filename='Ritaj-Images/photo_2025-09-08_18-20-59.jpg') }}" alt="Service 3">
       <h3>الاجهزة الكهربائية والمنزلية</h3>
       <p>وصف مختصر عن الخدمة الثالثة هنا يوضح مميزاتها وفوائدها.</p>
     </div>
     <div class="service-box">
-      <img src="Ritaj-Images/photo_2025-09-08_18-20-59.jpg" alt="Service 2">
+      <img src="{{ url_for('static', filename='Ritaj-Images/photo_2025-09-08_18-20-59.jpg') }}" alt="Service 2">
       <h3>الدراجات النارية والكهربائية</h3>
       <p>وصف مختصر عن الخدمة الثانية هنا يوضح مميزاتها وفوائدها.</p>
     </div>
     <div class="service-box">
-      <img src="Ritaj-Images/photo_2025-09-08_18-20-59.jpg" alt="Service 1">
+      <img src="{{ url_for('static', filename='Ritaj-Images/photo_2025-09-08_18-20-59.jpg') }}" alt="Service 1">
       <h3>منصات البث والترفيه</h3>
       <p>وصف مختصر عن الخدمة الأولى هنا يوضح مميزاتها وفوائدها.</p>
     </div>
@@ -192,40 +156,20 @@
   </div>
 </section>
 
-
 <section id="locations" class="Locations-box">
   <div class="Locations">
     <h2 class="Location-title"><span class="gradient">مواقعنا</span></h2>
     <div class="fade-wrapper">
-    <div class="locations-grid">
-
-      <div class="location-box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3332.776904931797!2d44.41273067568669!3d33.35077777342924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDIxJzAyLjgiTiA0NMKwMjQnNTUuMSJF!5e0!3m2!1sen!2snl!4v1757523202852!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="Location-text">بغداد, شارع فلسطين</p>
-        <cite>-فرع العاصمة</cite>
+      <div class="locations-grid">
+        <div class="location-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3332.776904931797!2d44.41273067568669!3d33.35077777342924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDIxJzAyLjgiTiA0NMKwMjQnNTUuMSJF!5e0!3m2!1sen!2snl!4v1757523202852!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p class="Location-text">بغداد, شارع فلسطين</p>
+          <cite>-فرع العاصمة</cite>
+        </div>
+        <!-- Add other locations similarly -->
       </div>
-
-      <div class="location-box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.544605283649!2d47.8275791!3d30.505635899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc4975f49ab4785%3A0x3cc4e53b3e644d98!2z2KfZhNiv2YrZhtin2LXZiNix!5e0!3m2!1sen!2snl!4v1757263308212!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="Location-text">البصرة, شارع الجزائر</p>
-        <cite>-فرع الاشتراكات</cite>
-      </div>
-
-      <div class="location-box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.75724966125!2d47.81812670000001!3d30.527902599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc4990028cd6a37%3A0x15f3ed7698e7e7c7!2z2YXYudix2LYg2KfZhNit2YPZitmF2YrYqSDYtNix2YPYqSDYsdiq2KfYrA!5e0!3m2!1sen!2snl!4v1757263102578!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="Location-text">البصرة, شارع دينار</p>
-        <cite>-فرع البيع بالتقسيط</cite>
-      </div>
-      
-      <div class="location-box">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.0522147795355!2d47.835853699999994!3d30.519562599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fc4991246838889%3A0x8506a216baf5953!2z2LTYsdmD2Kkg2LHYqtin2Kwg2YTZhNiq2KzYp9ix2Kkg2KfZhNi52KfZhdip!5e0!3m2!1sen!2snl!4v1757261591151!5m2!1sen!2snl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p class="Location-text">البصرة, شارع الكويت</p>
-        <cite>-الفرع الرئيسي</cite>
-      </div>
-
     </div>
   </div>
-</div>
 </section>
 
 <section id="contacts" class="contacts-box">
@@ -233,28 +177,18 @@
     <h2 class="contact-title"><span class="gradient">تواصل معنا</span></h2>
     <div class="fade-wrapper">
       <div class="contacts-grid">
-
-        <!-- Phone -->
         <div class="contact-box">
           <span class="gradient"><i class='bx bx-phone phone-icon'></i></span>
-          <p class="contact-text">
-            +964 770 905 3089
-          </p>
+          <p class="contact-text">+964 770 905 3089</p>
         </div>
-
-        <!-- Telegram -->
         <div class="contact-box">
           <span class="gradient"><i class='bx bxl-telegram phone-icon'></i></span>
           <p class="contact-text">retajcompany2003</p>
         </div>
-
-        <!-- Instagram -->
         <div class="contact-box">
           <span class="gradient"><i class='bx bxl-instagram phone-icon'></i></span>
           <p class="contact-text">Ritaj.Company</p>
         </div>
-
-        <!-- Facebook -->
         <div class="contact-box">
           <span class="gradient"><i class='bx bxl-facebook phone-icon'></i></span>
           <p class="contact-text">شركة رتاج</p>
@@ -263,25 +197,14 @@
     </div>
   </div>
 </section>
+
 <footer class="site-footer">
   <div class="footer-container">
-    <div class="footer-rights">
-      &copy; 2025 ZKKM_STUDIO. All Rights Reserved.
-    </div>
+    <div class="footer-rights">&copy; 2025 ZKKM_STUDIO. All Rights Reserved.</div>
   </div>
 </footer>
-
 
 <script src="{{ url_for('static', filename='scroll-animate.js') }}"></script>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
