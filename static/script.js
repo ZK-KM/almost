@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let brandSections = [];
 
-  // Fetch products.json and render sections
-  fetch("products.json")
+  // Fetch products.json from static folder
+  fetch("/static/products.json")
     .then(res => res.json())
     .then(data => {
       renderProducts(data.brands || []);
@@ -55,10 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
       brandEl.setAttribute("data-brand", brand.id);
 
       const desc = document.createElement("p");
-desc.className = "brand-description";
-desc.innerHTML = brand.description || "";
-brandEl.appendChild(desc);
-
+      desc.className = "brand-description";
+      desc.innerHTML = brand.description || "";
+      brandEl.appendChild(desc);
 
       const ul = document.createElement("ul");
       ul.className = "category-list";
@@ -90,15 +89,11 @@ brandEl.appendChild(desc);
           card.className = "product-card";
 
           const img = document.createElement("img");
-
-          // If image path already contains /static/, use it as-is
           if (prod.image.startsWith("/static/") || prod.image.startsWith("http")) {
             img.src = prod.image;
           } else {
-            // Otherwise, prepend /static/ folder path
             img.src = `/static/${prod.image}`;
           }
-
           img.alt = prod.title || "";
           img.onerror = function () {
             this.onerror = null;
@@ -127,13 +122,10 @@ brandEl.appendChild(desc);
   }
 
   function wireUpInteractions() {
-    // Handle brand clicks
     brands.forEach(brand => {
       brand.addEventListener("click", () => {
         brands.forEach(b => b.classList.remove("active"));
         brand.classList.add("active");
-
-        // Save last active brand
         localStorage.setItem("activeBrand", brand.dataset.brand);
 
         brandSections.forEach(section => {
@@ -162,7 +154,6 @@ brandEl.appendChild(desc);
       });
     });
 
-    // Handle category clicks with cascading animation
     document.querySelectorAll(".brand-products").forEach(section => {
       const categories = section.querySelectorAll(".category-list li");
       const productsGrids = section.querySelectorAll(".products-grid");
@@ -171,8 +162,6 @@ brandEl.appendChild(desc);
         cat.addEventListener("click", () => {
           categories.forEach(c => c.classList.remove("active"));
           cat.classList.add("active");
-
-          // Save last active category
           localStorage.setItem("activeCategory", cat.dataset.category);
 
           const selectedCategory = cat.dataset.category;
@@ -181,7 +170,6 @@ brandEl.appendChild(desc);
             const products = grid.querySelectorAll(".product-card");
 
             if (grid.dataset.category === selectedCategory) {
-              // Hide other grids
               productsGrids.forEach(g => {
                 if (g !== grid) {
                   g.querySelectorAll(".product-card").forEach(p => {
@@ -214,4 +202,3 @@ brandEl.appendChild(desc);
     });
   }
 });
-
