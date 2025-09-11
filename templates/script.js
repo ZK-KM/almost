@@ -214,3 +214,4 @@ brandEl.appendChild(desc);
     });
   }
 });
+
