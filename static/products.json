@@ -12,31 +12,31 @@
           "products": [
             {
               "image": "uploads/REF-1.webp",
-              "title": "good friedge",
+              "title": "ثلاجة بابين",
               "description": "",
               "id": "5844e320d61d4f05ac706463777af545",
               "active": true,
               "name": "good friedge"
             },
             {
-              "image": "product-images/refrigerators/REF-2.webp",
-              "title": "Fridge Model 2",
+              "image": "uploads/REF-2.webp",
+              "title": "ثلاجة باب واحد",
               "description": "",
               "id": "31048f0c404f4c4db39b3536f77b353a",
               "active": true,
               "name": "Fridge Model 2"
             },
             {
-              "image": "product-images/refrigerators/REF-3.webp",
-              "title": "Fridge Model 3",
+              "image": "uploads/REF-3.webp",
+              "title": "ثلاجة باب واحد زجاجي",
               "description": "",
               "id": "d8b2c66530284d34b4df3c3f0142f8cb",
               "active": true,
               "name": "Fridge Model 3"
             },
             {
-              "image": "product-images/refrigerators/REF-4.webp",
-              "title": "Fridge Model 4",
+              "image": "uploads/REF-4.webp",
+              "title": "ثلاجة بابين زجاج",
               "description": "",
               "id": "73a34db919314b88bcb1bb1d978362ef",
               "active": true,
@@ -44,7 +44,7 @@
             },
             {
               "image": "uploads/REF-5.webp",
-              "title": "Fridge Model 5",
+              "title": "ثلاجة بابين",
               "description": "",
               "id": "317b4f16f43148f8be5c4f714bc0b064",
               "active": true,
@@ -57,52 +57,60 @@
           "name": "برادات",
           "products": [
             {
-              "image": "product-images/water-coolers/WC-1.webp",
-              "title": "Water Cooler Model 1",
+              "image": "uploads/WC-1.webp",
+              "title": "براد صغير",
               "description": "",
               "id": "3dea1f16a65a4f75b01d980946623a5d",
               "active": true,
               "name": "Water Cooler Model 1"
             },
             {
-              "image": "product-images/water-coolers/WC-2.webp",
-              "title": "Water Cooler Model 2",
+              "image": "uploads/WC-2.webp",
+              "title": "براد صغير",
               "description": "",
               "id": "bd0a14a1c371469b94f0f959def3ef85",
               "active": true,
               "name": "Water Cooler Model 2"
             },
             {
-              "image": "product-images/water-coolers/WC-3.webp",
-              "title": "Water Cooler Model 3",
+              "image": "uploads/WC-3.webp",
+              "title": "براد متوسط",
               "description": "",
               "id": "7580d669472f4098918d6acf377f6ccb",
               "active": true,
               "name": "Water Cooler Model 3"
             },
             {
-              "image": "product-images/water-coolers/WC-4.webp",
-              "title": "Water Cooler Model 4",
+              "image": "uploads/WC-4.webp",
+              "title": "براد كبير",
               "description": "",
               "id": "b0d258415e8947e198ff7e43aba4167c",
               "active": true,
               "name": "Water Cooler Model 4"
             },
             {
-              "image": "product-images/water-coolers/WC-6.webp",
-              "title": "Water Cooler Model 6",
+              "image": "uploads/WC-7.webp",
+              "title": "براد كبير",
               "description": "",
               "id": "8f524c8b23d8499aa6e414d8f9842dc9",
               "active": true,
               "name": "Water Cooler Model 6"
             },
             {
-              "image": "product-images/water-coolers/WC-7.webp",
-              "title": "Water Cooler Model 7",
+              "image": "uploads/IMG_6432.JPG",
+              "title": "براد ثلاث حنفيات",
               "description": "",
               "id": "36816ee485a648319fe84521ca577acf",
               "active": true,
               "name": "Water Cooler Model 7"
+            },
+            {
+              "id": "ba1ccafb2ec24d47ad06c1065e8476b2",
+              "title": "براد اربع حنفيات",
+              "name": "براد اربع حنفيات",
+              "description": "",
+              "image": "uploads/IMG_6431.JPG",
+              "active": true
             }
           ]
         },
@@ -111,48 +119,48 @@
           "name": "سبالت",
           "products": [
             {
-              "image": "product-images/Air-Conditioners/ace-1.webp",
-              "title": "Boiler 1",
+              "image": "uploads/ace-1.webp",
+              "title": "سبلت",
               "description": "",
               "id": "22035affa0ca426186f4c8a080a45f7e",
               "active": true,
               "name": "Boiler 1"
             },
             {
-              "image": "product-images/Air-Conditioners/ace-2.webp",
-              "title": "Boiler 2",
+              "image": "uploads/ace-2.webp",
+              "title": "سبلت",
               "description": "",
               "id": "f5b9725affd84d8db2eccaeee8fc2fce",
               "active": true,
               "name": "Boiler 2"
             },
             {
-              "image": "product-images/Air-Conditioners/ace-3.webp",
-              "title": "Boiler 3",
+              "image": "uploads/ace-3.webp",
+              "title": "سبلت",
               "description": "",
               "id": "2672a9049f4a49f0804f6f101ee1f0a7",
               "active": true,
               "name": "Boiler 3"
             },
             {
-              "image": "product-images/Air-Conditioners/ace-4.webp",
-              "title": "Boiler 4",
+              "image": "uploads/ace-4.webp",
+              "title": "سبلت",
               "description": "",
               "id": "0c0cb954c6184540a4628a223d44da0a",
               "active": true,
               "name": "Boiler 4"
             },
             {
-              "image": "product-images/Air-Conditioners/floor-stand-01.webp",
-              "title": "Boiler 5",
+              "image": "uploads/floor-stand-01.webp",
+              "title": "سبلت كنتوري",
               "description": "",
               "id": "985e9d8807a044c7aa4c640f6de1e3e1",
               "active": true,
               "name": "Boiler 5"
             },
             {
-              "image": "product-images/Air-Conditioners/outdoor-01.webp",
-              "title": "Boiler 6",
+              "image": "uploads/outdoor-01.webp",
+              "title": "سبلت قطعة خارجية",
               "description": "",
               "id": "20b48c2012ea4916b13de6f8285d1549",
               "active": true,
@@ -165,7 +173,7 @@
           "name": "سخانات",
           "products": [
             {
-              "image": "product-images/water-heater/water-heater-seperate.webp",
+              "image": "uploads/water-heater-seperate.webp",
               "title": "Boiler 1",
               "description": "",
               "id": "36bee5c69dde4115b47413b56e175b3c",
@@ -177,16 +185,7 @@
         {
           "id": "02e80bd6be764c9bbab7a6179f0c7bf7",
           "name": "تابلتات",
-          "products": [
-            {
-              "id": "4bd45796e1a241da97d63f8f681ccb7d",
-              "title": "tab",
-              "name": "tab",
-              "description": "top",
-              "image": "uploads/REF-1.webp",
-              "active": false
-            }
-          ]
+          "products": []
         }
       ]
     },
@@ -217,92 +216,163 @@
               "name": "Compact Coffee"
             }
           ]
+        },
+        {
+          "id": "f2009be2e8a6419683c39a59f0eff982",
+          "name": "دراجات نارية",
+          "products": []
+        },
+        {
+          "id": "09b91fd467f34cffbeefe7ac8baf2cbe",
+          "name": "دراجات كهربائية",
+          "products": []
         }
       ]
     },
     {
       "id": "brand3",
       "name": "GAROW",
-      "description": "شركة حساوي هي رائدة في مجال الأجهزة المنزلية، تقدم حلولاً عالية الجودة للتبريد والتدفئة.",
+      "description": "تأسست <strong>Garow Technology Group</strong> عام 2012، وأصبحت من أبرز الشركات في مجال <strong>المركبات الكهربائية ثنائية العجلات</strong>، حيث تختص بـ<strong>الدراجات، السكوترات، والدراجات النارية الكهربائية</strong> ومكوناتها، مع أكثر من <strong>100 طراز متنوع</strong> يلبي احتياجات المستهلكين. وبصفتنا في <strong>رتاج للتجارة العامة</strong> الوكيل <strong>الحصري</strong> لـ Garow في العراق، نوفر لعملائنا حلول نقل كهربائية تتميز بـ<strong>الجودة، الأداء العالي، والتقنيات الحديثة</strong>.",
       "logo": "logos/GAROW.webp",
       "categories": [
         {
           "id": "appliances",
           "name": "الأجهزة المنزلية",
+          "products": []
+        },
+        {
+          "id": "ffe878195fb64dbdbc420825f8e9e96d",
+          "name": "دراجات كهربائية",
           "products": [
             {
-              "image": "logos/DELONGHI.webp",
-              "title": "Stand Mixer",
-              "description": "خلاط متين مع سرعات متعددة.",
-              "id": "c5955282521341e0b1f6de0907a65741",
-              "active": true,
-              "name": "stand mmmmmmmmmm"
+              "id": "63c68f096af14c339874aad92b779fb8",
+              "title": "FS650",
+              "description": "",
+              "image": "uploads/-7fc359e32de246daac964711ab2bc68f.jpg",
+              "active": true
+            },
+            {
+              "id": "23eb76991a054d6e8f1a520edd937f56",
+              "title": "STARMAX RZ500",
+              "description": "",
+              "image": "uploads/-a36ddb68ce6342e48ee956613a405bb4.jpg",
+              "active": true
+            },
+            {
+              "id": "a21c689c67454d3e910c7f54df8592e8",
+              "title": "King Kong 600",
+              "description": "",
+              "image": "uploads/-55f4e42ce3e74d2cbce2e8425618ffb3.jpg",
+              "active": true
+            },
+            {
+              "id": "f5ce9b9e9d164c59bae5fb1a8603af09",
+              "title": "MaiDong 310",
+              "description": "",
+              "image": "uploads/-c0101aa800ea4be9833f9ed359acd237.jpg",
+              "active": true
+            },
+            {
+              "id": "cb752dbae2ee4a4c83b2fb8fa40bc2e7",
+              "title": "Meile 320",
+              "description": "",
+              "image": "uploads/-bcea2138176245739aaf5227ac4b3bed.jpg",
+              "active": true
+            },
+            {
+              "id": "3d9edd7afc464b68b0a80e13e98abb9e",
+              "title": "Lightning 500",
+              "description": "",
+              "image": "uploads/-b0d664150fb44e2ca59da16adbdc4a21.jpg",
+              "active": true
+            },
+            {
+              "id": "0f0d19cf2b644e3e92b1961a8263ad77",
+              "title": "FY100",
+              "description": "",
+              "image": "uploads/-58cd86c6da044d77b98ae828068210ff.jpg",
+              "active": true
+            },
+            {
+              "id": "7ca897b00eef45d9a23032d29ddda5db",
+              "title": "XY100",
+              "description": "",
+              "image": "uploads/-3288785e9bd54482adf0847cb361880b.jpg",
+              "active": true
+            },
+            {
+              "id": "711050b36097448799ab2b15f0cd3bbe",
+              "title": "FUCAI",
+              "description": "",
+              "image": "uploads/GAROW359-8212214a75724c57924c6dcde35bcb21.jpg",
+              "active": true
+            },
+            {
+              "id": "4c549b4cf56844fcb1fdfe1d7d3c8062",
+              "title": "GUANGCAI",
+              "description": "",
+              "image": "uploads/GAROW275-eb14c43f990143439b33d869955128e0.jpg",
+              "active": true
+            },
+            {
+              "id": "7b3ddc68c0954ad7910a1d9c4366e2ab",
+              "title": "KAFEI",
+              "description": "",
+              "image": "uploads/GAROW456-8febeceb50d04e30bb6cb5b30d48ab0c.jpg",
+              "active": true
+            },
+            {
+              "id": "22ac34957b7d4af79c9be1d559f83b44",
+              "title": "LINGDONG",
+              "description": "",
+              "image": "uploads/GAROW1160-b611590135894286a5b2928675660cdc.jpg",
+              "active": true
+            },
+            {
+              "id": "ba1fddf4c0dc4237973e57b940365ac8",
+              "title": "MANDA",
+              "description": "",
+              "image": "uploads/8-0d5a72f6e75048aa9112cd915626df26.jpg",
+              "active": true
             }
           ]
+        },
+        {
+          "id": "e3a27e8accc84ad8972158397adb106b",
+          "name": "بايسكلات كهربائية",
+          "products": []
         }
       ]
     },
     {
       "id": "brand4",
       "name": "OPAL",
-      "description": "شركة حساوي هي رائدة في مجال الأجهزة المنزلية، تقدم حلولاً عالية الجودة للتبريد والتدفئة.",
+      "description": "<strong>OPAL</strong> تقدم أجهزة كهربائية منزلية تجمع بين <strong>الجودة العالية</strong> و<strong>التصميم العصري</strong>، من أفران ومرشحات وطباخات متنوعة تلبي احتياجات كل منزل. وبصفتنا الوكيل <strong>الحصري</strong> لـ OPAL في العراق، نوفر لعملائنا منتجات موثوقة تمنحهم <strong>راحة وكفاءة استثنائية</strong>.",
       "logo": "logos/OPAl.webp",
       "categories": [
         {
           "id": "coolers",
           "name": "أنظمة التبريد",
-          "products": [
-            {
-              "image": "logos/GREE.webp",
-              "title": "مبرد محمول",
-              "description": "مبرد محمول خفيف الوزن.",
-              "id": "24a5824523ed4ab68b9a2e2d2d3a3433",
-              "active": true,
-              "name": "مبرد محمول"
-            },
-            {
-              "image": "logos/GREE.webp",
-              "title": "مبرد محمول",
-              "description": "مبرد محمول خفيف الوزن.",
-              "id": "ccb6a86437984075a37629d2cd1add80",
-              "active": true,
-              "name": "مبرد محمول"
-            },
-            {
-              "image": "logos/GREE.webp",
-              "title": "مبرد محمول",
-              "description": "مبرد محمول خفيف الوزن.",
-              "id": "e2cc8274b79c46e5bfd6e1e6c02cc108",
-              "active": true,
-              "name": "مبرد محمول"
-            }
-          ]
+          "products": []
         },
         {
           "id": "boilers",
           "name": "سخانات المياه",
-          "products": [
-            {
-              "image": "logos/HASAWI.webp",
-              "title": "Boiler 1",
-              "description": "سخان مياه سريع التسخين.",
-              "id": "5b8a09ab17ee461c96b14a5f1fe09739",
-              "active": true,
-              "name": "Boiler 1"
-            },
-            {
-              "image": "logos/HASAWI.webp",
-              "title": "Boiler 2",
-              "description": "سخان مياه بسعة كبيرة للاستخدام العائلي.",
-              "id": "b5abab09b74347f2ac0bde6612f43e54",
-              "active": true,
-              "name": "Boiler 2"
-            }
-          ]
+          "products": []
         },
         {
           "id": "b0f60d8604034e2e8f0fe4eb9b8199d3",
           "name": "hehehe",
+          "products": []
+        },
+        {
+          "id": "a194e65b8f964b89bcc43c9e4ec1541e",
+          "name": "افران",
+          "products": []
+        },
+        {
+          "id": "ddd128fc91d74ba8942a12d34878914a",
+          "name": "مرشحات",
           "products": []
         }
       ]
@@ -318,20 +388,41 @@
           "name": "beIN",
           "products": [
             {
-              "image": "logos/BEIN.webp",
-              "title": "beIN Sports Package",
-              "description": "اشتراك رياضي شامل لجميع البطولات.",
+              "image": "uploads/beIN-TV-VIP_4.png",
+              "title": "beIN TV VIP",
+              "description": "جهاز الاستقبال بتقنية 4K فائقة الجودة موصول بالانترنت والأقمار الصناعية، مع سعة تخزين إضافية.",
               "id": "ebcd6cced2934d82acc70d959c0ae4fb",
               "active": true,
               "name": "beIN Sports Package"
             },
             {
-              "image": "logos/BEIN.webp",
-              "title": "beIN Entertainment Package",
-              "description": "اشتراك ترفيهي مع أحدث الأفلام والمسلسلات.",
+              "image": "uploads/beIN-TV_A.png",
+              "title": "beIN TV",
+              "description": "جهاز الاستقبال بتقنية 4K فائقة الجودة موصول بالانترنت والأقمار الصناعية.",
               "id": "aaeecf6c3b4f4263b4ce7683e3e992a6",
               "active": true,
               "name": "beIN Entertainment Package"
+            },
+            {
+              "id": "e59371ad99834fdb886d3eab9c0efe71",
+              "title": "beIN 4K Media Server",
+              "description": "جهاز الاستقبال بتقنية 4K فائقة الجودة",
+              "image": "uploads/bein-4k-face-bas2-1162022.png",
+              "active": true
+            },
+            {
+              "id": "d1014798c0b64155a452ca2059363674",
+              "title": "beIN PVR Plus",
+              "description": "جهاز استقبال البث الفضائي عالي الدقة",
+              "image": "uploads/beIN-PVR-Box-1162022.png",
+              "active": true
+            },
+            {
+              "id": "3f688ecc9b1a4e39afaf43ed223ec02a",
+              "title": "اشتراكات beIN",
+              "description": "تتوفر لدينا حميع اشتراكات beIN الرسمية",
+              "image": "uploads/BEIN.webp",
+              "active": true
             }
           ]
         },
@@ -344,13 +435,13 @@
               "title": "OSN Sports Package",
               "description": "اشتراك رياضي شامل لجميع البطولات.",
               "id": "ebd84f0a8c794054ada56f43473d19a3",
-              "active": true,
+              "active": false,
               "name": "OSN Sports Package"
             },
             {
-              "image": "logos/OSN.webp",
-              "title": "OSN Entertainment Package",
-              "description": "اشتراك ترفيهي مع أحدث الأفلام والمسلسلات.",
+              "image": "uploads/osn-hd-box.jpg",
+              "title": "جهاز OSN HD Box",
+              "description": "",
               "id": "85cd97a1df4f49179fc0d6ca97f9e2d5",
               "active": true,
               "name": "OSN Entertainment Package"
@@ -364,7 +455,7 @@
             {
               "image": "logos/SHAHIDVIPSQ.webp",
               "title": "VIP",
-              "description": "",
+              "description": "أعمال شاهد الأصلية، مسلسلات حصرية، عروض أولى للأفلام وقنوات مباشرة.",
               "id": "e36e43c2352d4a2388ab6c3ec2651503",
               "active": true,
               "name": "VIP"
@@ -372,7 +463,7 @@
             {
               "image": "logos/SHAHIDVIPSQ.webp",
               "title": "VIP | BigTime",
-              "description": "",
+              "description": "مواسم الرياض وجدة: حفلات وعروض مباشرة، فعاليات استثنائية، ومزايا VIP الحصرية.",
               "id": "2ea927204adb4bd2b4e8de5223df57c5",
               "active": true,
               "name": "VIP | BigTime"
@@ -384,12 +475,19 @@
           "name": "STARZPLAY",
           "products": [
             {
-              "image": "logos/STARZPLAY.webp",
-              "title": "STARZPLAY Sports Package",
-              "description": "اشتراك رياضي شامل لجميع البطولات.",
+              "image": "uploads/STARZPLAY.webp",
+              "title": "اشتراك STARZPLAY ماكس الشهري",
+              "description": "",
               "id": "0ac19fd5279e46e7818edb664cc085ed",
               "active": true,
               "name": "STARZPLAY Sports Package"
+            },
+            {
+              "id": "2c6639fc6e374390a99fe652d8a7e4db",
+              "title": "اشتراك STARZPLAY ماكس السنوي",
+              "description": "",
+              "image": "uploads/STARZPLAY.webp",
+              "active": true
             }
           ]
         }
@@ -411,6 +509,134 @@
               "name": "2ton",
               "description": "",
               "image": "uploads/ace-1.webp",
+              "active": false
+            }
+          ]
+        },
+        {
+          "id": "36f6579126534d538a9ca30b1a64cfc0",
+          "name": "ثلاجات",
+          "products": [
+            {
+              "id": "e06be9c45b034631ab20ff03514da3ea",
+              "title": "سلسلة ثلاجة 510 لتر",
+              "description": "سعة تخزين كبيرة | ضاغط ذكي بتقنية العاكس | 4 أوضاع مع تحكم إلكتروني في درجة الحرارة",
+              "image": "uploads/GREE-LEAFLET-A4_Inner-pages_Outlined-02.webp",
+              "active": true
+            },
+            {
+              "id": "5db1ed6fa9fa4ee1b6929239e34549d3",
+              "title": "سلسلة ثلاجة 446 لتر",
+              "description": "سعة تخزين كبيرة | نظام تبريد مزدوج | ضاغط عاكس | رف زجاجات شفاف | مستوى ضوضاء منخفض",
+              "image": "uploads/dfdcdfdc-02.webp",
+              "active": true
+            },
+            {
+              "id": "fb1782d9ace54ab294e02f339f4189d0",
+              "title": "سلسلة ثلاجة 450 لتر",
+              "description": "مبخر رول بوند ميكانيكي | تحكم في درجة الحرارة | إضاءة داخلية LED | إطار زجاجي شفاف للزجاجات",
+              "image": "uploads/dfgzgzd-02.webp",
+              "active": true
+            },
+            {
+              "id": "b60634c68503434b8e0b483e206b3612",
+              "title": "سلسلة ثلاجة 295 لتر",
+              "description": "مقبض خارجي | مبخر رول بوند | تحكم ميكانيكي في درجة الحرارة | حشوة باب قابلة للإزالة | رف زجاجي",
+              "image": "uploads/zdfzd-02.webp",
+              "active": true
+            },
+            {
+              "id": "e1ff8488aec848afa704b1fb44cac228",
+              "title": "سلسلة ثلاجة 180 لتر",
+              "description": "مقبض خارجي | مبخر رول بوند | تحكم ميكانيكي في درجة الحرارة | حشوة باب قابلة للإزالة | رف زجاجي",
+              "image": "uploads/zxxcdx-02.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "d683fb077e6d4a8bba637054f8a9b827",
+          "name": "فريزر",
+          "products": [
+            {
+              "id": "fc061c93949e4101bd2e1941477b4605",
+              "title": "سلسلة الفريزر الصندوقي 310 لتر",
+              "description": "ذاكرة عند انقطاع الطاقة | نطاق جهد واسع | توفير الطاقة",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-2.webp",
+              "active": true
+            },
+            {
+              "id": "19f86841d37d41b0bea724ae16f75ccc",
+              "title": "سلسلة الفريزر الصندوقي 255 لتر",
+              "description": "ذاكرة عند انقطاع الطاقة | نطاق جهد واسع | توفير الطاقة",
+              "image": "uploads/xs.webp",
+              "active": true
+            },
+            {
+              "id": "0082c39d81ae4160b72011c0f40506ee",
+              "title": "سلسلة الفريزر الصندوقي 200 لتر",
+              "description": "ذاكرة عند انقطاع الطاقة | نطاق جهد واسع | توفير الطاقة",
+              "image": "uploads/xxs-1.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "d2aec8e954384814ac1d2f46e43a95e9",
+          "name": "براد مياه",
+          "products": [
+            {
+              "id": "e97ea3b317734c4bbcee4db0350bf29f",
+              "title": "براد مياه",
+              "description": "| بارد | ساخن | إضاءة LED | قفل أمان للأطفال",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-8.webp",
+              "active": true
+            },
+            {
+              "id": "61cc9673b1d94d969b546d0bc2655fb6",
+              "title": "براد مياه",
+              "description": "بارد | ساخن | إضاءة LED | قفل أمان للأطفال",
+              "image": "uploads/bxzgfbxx-02.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "0663899bd8e94df8b0638dcb9d09cd87",
+          "name": "مبرد هواء",
+          "products": [
+            {
+              "id": "95551301703d406c9f97636378e5173f",
+              "title": "سلسلة مبرد الهواء 40 لتر و60 لتر",
+              "description": "جهاز حماية المضخة | لوح تبريد خلايا نحل وقابل للإزالة وفلتر | مقبض جانبي وعجلات | مؤقت 15 ساعة",
+              "image": "uploads/GREE-LEAFLET-A4-Back_Outlined-02.webp",
+              "active": true
+            },
+            {
+              "id": "951fd268fb2849ac933f1ce7d09ed701",
+              "title": "سلسلة مبرد الهواء 20 لتر",
+              "description": "مروحة طرد مركزي مزدوجة + محرك محمل كرات (نحاس 100%) | مؤقت 8 ساعات | اهتزاز واسع النطاق",
+              "image": "uploads/2-02.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "f785b3def7774a348cc4a8774845ce38",
+          "name": "منقي هواء",
+          "products": [
+            {
+              "id": "614e93718ff045ea99af46590100f09f",
+              "title": "جهاز تنقية الهواء",
+              "description": "كفاءة إزالة الجسيمات العالقة، إزالة المسببات للحساسية بالإضافة إلى الدخان، ووظيفة التعقيم العميق بالأشعة فوق البنفسجية",
+              "image": "uploads/GREE-LEAFLET-A4-Back_Outlined-02-1.webp",
+              "active": true
+            },
+            {
+              "id": "132ad074df87491682d4636e82614ced",
+              "title": "جهاز تنقية الهواء",
+              "description": "إزالة PM2.5 والفورمالديهايد | بكفاءة | عرض رقمي لحظي لـ PM2.5 | قفل أمان للأطفال | حساس قابل للتنظيف",
+              "image": "uploads/weffd-02.webp",
               "active": true
             }
           ]
@@ -433,6 +659,127 @@
               "name": "hjih",
               "description": "hi",
               "image": "",
+              "active": false
+            }
+          ]
+        },
+        {
+          "id": "d2c4bfaf2d0242d5a4451d0d6def16fd",
+          "name": "جدارية",
+          "products": [
+            {
+              "id": "e75280d030954f7aabec5b661d5147d5",
+              "title": "بريستيج جي بوستر",
+              "description": "",
+              "image": "uploads/sfgbsvsdfd.webp",
+              "active": true
+            },
+            {
+              "id": "95e18e3404f848caa6a4c2d53a92b6bf",
+              "title": "ماكس + جي بوستر",
+              "description": "",
+              "image": "uploads/dsdcdcvdf.webp",
+              "active": true
+            },
+            {
+              "id": "71e2a6e0238045ca850ba28e6a8503dd",
+              "title": "إيليت",
+              "description": "",
+              "image": "uploads/fgghdtgfst.webp",
+              "active": true
+            },
+            {
+              "id": "ec0b2ec8f5ac4b96ac48c2eefabc59ac",
+              "title": "كوديا",
+              "description": "",
+              "image": "uploads/sfgbsvsdfd.webp",
+              "active": true
+            },
+            {
+              "id": "307037521e3b49bca87dd3fe73a56ab4",
+              "title": "ماكس جي بوستر",
+              "description": "",
+              "image": "uploads/dsdcdcvdf.webp",
+              "active": true
+            },
+            {
+              "id": "9dd9138002cb44af9e230d870ae09618",
+              "title": "صحراء",
+              "description": "",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-6.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "8a8a470e17ec45d9ba60faf898a7aa1c",
+          "name": "ارضية",
+          "products": [
+            {
+              "id": "9803232a32fd46d78edf1c293f3b229f",
+              "title": "مكيف أرضي آيسبرغ",
+              "description": "",
+              "image": "uploads/fkjhgfvasdf.webp",
+              "active": true
+            },
+            {
+              "id": "f050bf234e2a4c4fa84a3c7a78c3eadb",
+              "title": "مكيف أرضي للتدفئة والتبريد",
+              "description": "",
+              "image": "uploads/fkjhgfvasdf.webp",
+              "active": true
+            },
+            {
+              "id": "a86790e767714908b640e5469d41c051",
+              "title": "مكيف أرضي كبير 96K",
+              "description": "",
+              "image": "uploads/jmygfdgfds.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "ba8fa0d2dd884bc8a52e94401b7b2c9a",
+          "name": "محمولة",
+          "products": [
+            {
+              "id": "ccd629e333574918b8b3b82c14a1b511",
+              "title": "مكيف محمول",
+              "description": "",
+              "image": "uploads/nghfssredf.webp",
+              "active": true
+            },
+            {
+              "id": "0f5e4c57f4be42a99b7d8ea5d4e919f5",
+              "title": "مكيف محمول",
+              "description": "",
+              "image": "uploads/hfgdvsare.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "6c5c9f865998488894f4f5b4a7714882",
+          "name": "نافذية",
+          "products": [
+            {
+              "id": "e733888d6bb94142a8fa430e91021ee3",
+              "title": "مكيف نافذة",
+              "description": "",
+              "image": "uploads/ykjgyftdrsd.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "75cbdce8eaeb4fd99146bc168da65636",
+          "name": "سقفية",
+          "products": [
+            {
+              "id": "7a67c247d3d04217b2538f7872b65a15",
+              "title": "مكيف سقفي",
+              "description": "",
+              "image": "uploads/jhgfdersdsx.webp",
               "active": true
             }
           ]
@@ -442,13 +789,284 @@
     {
       "id": "brand8",
       "name": "DELONGHI",
-      "description": "شركة حساوي هي رائدة في مجال الأجهزة المنزلية، تقدم حلولاً عالية الجودة للتبريد والتدفئة.",
+      "description": "تُعد <strong>Delonghi</strong> اسمًا عالميًا يجمع بين <strong>الأناقة الإيطالية</strong> والأداء المتميز في <strong>أجهزة القهوة والأدوات المنزلية</strong>. ومن خلال وكالتنا <strong>المحلية</strong> في العراق، نتيح لعملائنا تجربة فريدة من الجودة والتميز.<يد والتدفئة.",
       "logo": "logos/DELONGHI.webp",
       "categories": [
         {
           "id": "5af19714ece94fb9872e06818d169fe1",
           "name": "del",
           "products": []
+        },
+        {
+          "id": "057689f147d04a8d8f5077980da7f648",
+          "name": "آلة القهوة الأوتوماتيكية بالكامل",
+          "products": [
+            {
+              "id": "3740fe24fe1e4c6390416b4c31118c1b",
+              "title": "آلة القهوة الأوتوماتيكية بريما دونا ايليت",
+              "description": "",
+              "image": "uploads/Delonghi_ECAM_650_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "9373ade849564d8faa43ec2ff15a0ede",
+              "title": "آلة القهوة الأوتوماتيكية إليتا كابتشينو",
+              "description": "",
+              "image": "uploads/Eletta-Cappuccino_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "d6005a7b6d8945558792ef72967c7714",
+          "name": "آلة القهوة اليدوية",
+          "products": [
+            {
+              "id": "1057636284a1475ab53af76486517d4f",
+              "title": "لا سبيشياليستا ماستر",
+              "description": "",
+              "image": "uploads/Delonghi_La-Specialista-Maestro_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "a272218b626541d4a518754d5b4cdc00",
+              "title": "لا سبيشياليستا بريستيجيو",
+              "description": "",
+              "image": "uploads/Delonghi_La-Specialista-Prestigio_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "bb8a8a8bb5a0447990456c9ad4842504",
+              "title": "لا سبيشياليستا أرتي",
+              "description": "",
+              "image": "uploads/Delonghi_La-Specialista-Arte_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "a57f09190360465fbecc7331651801c7",
+          "name": "آلة القهوة بالمضخة",
+          "products": [
+            {
+              "id": "0860bc83452844ce8f1b61c9897c3ce9",
+              "title": "آلة القهوة ديديكا",
+              "description": "",
+              "image": "uploads/Delonghi_EC785-GB_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "6ffd434513d34edb80ee70831bf35a1d",
+              "title": "آلة القهوة ديديكا",
+              "description": "",
+              "image": "uploads/Delonghi_EC785-GY_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "502ebfc2edc64d82b6d3d79d595ee918",
+          "name": "ملحقات القهوة",
+          "products": [
+            {
+              "id": "fe2359932cd347ae870c4ec9706710cf",
+              "title": "أكواب قهوة زجاجية",
+              "description": "",
+              "image": "uploads/Glass-Coffee-Cup_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "aed7fe4eecc449fab461204de263a155",
+              "title": "ملحقات مزدوجة الطبقات",
+              "description": "",
+              "image": "uploads/Double-wall-Accessories_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "c4e8e7b3c11244828ba8a79defeb63f5",
+              "title": "ملحقات من الفولاذ المقاوم للصدأ",
+              "description": "",
+              "image": "uploads/Stainless-Steel-Accessories_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "57714a61e871485da810d2dc3d2c258d",
+              "title": "أكواب السفر",
+              "description": "",
+              "image": "uploads/Travel-Mug-_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "9bd1426badef41bb82b88d14f4d99c9f",
+          "name": "اجهزة الطبخ",
+          "products": [
+            {
+              "id": "21e5f96f0c824362acdd35954c3623d9",
+              "title": "مشواة ديلونجي بتقنية التلامس",
+              "description": "",
+              "image": "uploads/Delonghi_ContactGrill_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "c59339099d4b4a2e812571b5b37a2112",
+              "title": "طباخ ديلونجي متعدد الاستخدامات",
+              "description": "",
+              "image": "uploads/Delonghi_MultiCooker_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "915c2c164c16426786eb71a45dc2c5f6",
+          "name": "اجهزة التدفئة",
+          "products": [
+            {
+              "id": "c2f075cb3f8046de980aa4491a585a7c",
+              "title": "ديلونجي مدفأة زيت",
+              "description": "",
+              "image": "uploads/Delonghi_OilfilledHeater_650x613px.jpg",
+              "active": true
+            },
+            {
+              "id": "e5e0652de46a474fab8676ee119eb6a9",
+              "title": "ديلونجي مدفأة مروحة",
+              "description": "",
+              "image": "uploads/Delonghi_Fan-Heater_650x613px-1.jpg",
+              "active": true
+            },
+            {
+              "id": "139a2c439f664b70bca144f64da4d93d",
+              "title": "ديلونجي مدفأة غاز",
+              "description": "",
+              "image": "uploads/Delonghi_Gas-Heater_650x613px-1.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "49b6e99f01524f3a8f274c42686a7ac9",
+          "name": "مواقد غاز",
+          "products": [
+            {
+              "id": "17c925c8b5e545a49bfd721ddde7ea67",
+              "title": "ديلونجي موقد غاز",
+              "description": "",
+              "image": "uploads/yunhtdgbvfddsf.webp",
+              "active": true
+            },
+            {
+              "id": "8d2037c23f3f4a789184c8ade027819f",
+              "title": "ديلونجي موقد غاز",
+              "description": "",
+              "image": "uploads/nhfdstfsa.webp",
+              "active": true
+            },
+            {
+              "id": "9093e5f9d7b941928257b3c7c111a791",
+              "title": "ديلونجي موقد غاز",
+              "description": "",
+              "image": "uploads/trfgwsatreg.webp",
+              "active": true
+            },
+            {
+              "id": "c5a2de3f6b3c4475a0dfde04060a10d3",
+              "title": "ديلونجي موقد غاز",
+              "description": "",
+              "image": "uploads/fdvsvgvgrgt.webp",
+              "active": true
+            },
+            {
+              "id": "2f38892fdf5348cbb3c2337180fe7d27",
+              "title": "ديلونجي موقد غاز",
+              "description": "",
+              "image": "uploads/Delonghi_La-Specialista-Arte_650x613px.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "4a71169c3fa74f64ada7a93a98bb0743",
+          "name": "شفاطات",
+          "products": [
+            {
+              "id": "4d8dec45e3c043778c283f0a435b202e",
+              "title": "شفاطات ديلونجي",
+              "description": "",
+              "image": "uploads/jhgfdsdas.webp",
+              "active": true
+            },
+            {
+              "id": "63a40e5d948d49299f0dc588ac893349",
+              "title": "شفاطات ديلونجي",
+              "description": "",
+              "image": "uploads/ertygsdfwaaaa.webp",
+              "active": true
+            },
+            {
+              "id": "69d85067c38f4d298bb5af7bb8968dcd",
+              "title": "شفاطات ديلونجي",
+              "description": "",
+              "image": "uploads/jhgfdszsa.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "72a1d02a5276410e90d65452fdc38eaa",
+          "name": "منتجات مدمجة",
+          "products": [
+            {
+              "id": "1940e5e848244e63a599caa685328bc9",
+              "title": "فرن مدمج 60 سم",
+              "description": "",
+              "image": "uploads/ygyuftftygguiu.webp",
+              "active": true
+            },
+            {
+              "id": "a3e20a2ab2834e1b9d2c4eb8af5cb6f4",
+              "title": "فرن مدمج 90 سم",
+              "description": "",
+              "image": "uploads/ghdfxdsaqqwqed.webp",
+              "active": true
+            },
+            {
+              "id": "f163bf6cbabc486b8149c1df9fcd7355",
+              "title": "موقد مدمج",
+              "description": "",
+              "image": "uploads/JKHGFDSAR.webp",
+              "active": true
+            },
+            {
+              "id": "b76ff6940176407291bac46c638b768c",
+              "title": "موقد مدمج",
+              "description": "",
+              "image": "uploads/jhgfdsa.webp",
+              "active": true
+            },
+            {
+              "id": "d1fa3648d4ff4f56a0bc93063680923f",
+              "title": "موقد مدمج",
+              "description": "",
+              "image": "uploads/NSL-590-X-IQ.webp",
+              "active": true
+            },
+            {
+              "id": "585017400d44451fbcc60f8a10dae86c",
+              "title": "موقد مدمج",
+              "description": "",
+              "image": "uploads/HUIHDHCIUHUIH.webp",
+              "active": true
+            },
+            {
+              "id": "6831ee764dc24de9a45be17985e7fd02",
+              "title": "موقد مدمج",
+              "description": "",
+              "image": "uploads/hndfvfvsrfdfdd.webp",
+              "active": true
+            }
+          ]
         }
       ]
     },
@@ -468,6 +1086,708 @@
               "name": "",
               "description": "",
               "image": "",
+              "active": false
+            }
+          ]
+        },
+        {
+          "id": "c8b5f2cc012a4892b67939c8791fcd71",
+          "name": "ميكروويفات",
+          "products": [
+            {
+              "id": "3fad018dd38d4c7f89ce23b2a4bdf8ac",
+              "title": "فرن ميكروويف 20 لتر",
+              "description": " 700W قدرة إخراج | 9 مستويات للطاقة الميكروويف | وظيفة الشواء",
+              "image": "uploads/Cooking-Products-Leaflet_A5-03.webp",
+              "active": true
+            },
+            {
+              "id": "a0e01527185a48abad1b829763dff131",
+              "title": "ميكروويف رقمي 25 لتر",
+              "description": "1000W وظيفة الشواء",
+              "image": "uploads/fdxeaaaedz-03.webp",
+              "active": true
+            },
+            {
+              "id": "b66f80fd8a37424aad22ba2a933040c6",
+              "title": "ميكروويف رقمي 20 لتر",
+              "description": "1250W قدرة إخراج | 6 مستويات للطاقة الميكروويف | وظيفة الشواء",
+              "image": "uploads/fxhdhgfbb-03.webp",
+              "active": true
+            },
+            {
+              "id": "32ce0ff0d38d4221a587b15dfa03874f",
+              "title": "ميكروويف رقمي 43 لتر",
+              "description": "1250W قدرة إخراج | 10 مستويات للطاقة الميكروويف | وظيفة الشواء",
+              "image": "uploads/abgzrthsgtddh-03.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "3174bf489f12418eb54bb0e4b9005afc",
+          "name": "افران كهربائية",
+          "products": [
+            {
+              "id": "ef3c23446732447683188bde36d74aae",
+              "title": "فرن كهربائي ٦٠ لتر",
+              "description": "2200W باب زجاجي مزدوج الطبقات | شواية | تسخين من الأعلى والأسفل | مروحة توزيع الهواء | مصباح فرن",
+              "image": "uploads/vyfyufyf-03.webp",
+              "active": true
+            },
+            {
+              "id": "5a06d20a883b4379b7881ea92dd6a53c",
+              "title": "فرن كهربائي ٥٠ لتر",
+              "description": "1800W باب زجاجي مزدوج الطبقات | شواية | تسخين من الأعلى والأسفل | مروحة توزيع الهواء | مصباح فرن",
+              "image": "uploads/vyfyufyf-03.webp",
+              "active": true
+            },
+            {
+              "id": "334df41ebd264ee6884f389ba71d9282",
+              "title": "فرن كهربائي ٧٠ لتر",
+              "description": "2200W باب زجاجي مزدوج الطبقات | شواية | تسخين من الأعلى والأسفل | مروحة توزيع الهواء | مصباح فرن",
+              "image": "uploads/vyfyufyf-03.webp",
+              "active": true
+            },
+            {
+              "id": "1e2c21245ba143f1892cd3d8a3b2fb82",
+              "title": "فرن البيتزا الاحترافي بحجم ١٢ انش",
+              "description": "•⁠ ⁠يعمل بنظام تحكم حرارة من ٠ الى ٤٣٠ درجة •⁠ ⁠القدرة ٢٢٠٠ واط •⁠ ⁠مصنوع من مواد قابلة للتسخين السريع لتعجيل عملية الطبخ •⁠ ⁠مؤقت ٦٠ دقيقة مع خاصية الاطفاء الذاتي •⁠ ⁠مزود بطبقتين زجاج شفاف مقاوم للحرارة ومقبض بارد الملمس مقاوم للحرارة •⁠ ⁠مزود بهيتر تسخين علوي وسفلي •⁠ ⁠مناسب لطبخ البيتزا والباستا وكافة المخبوزات •⁠ ⁠قليل الاستهلاك للطاقة •⁠ ⁠مزود بانارة داخلية",
+              "image": "uploads/EPZO450_848x800-2.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "401cc7a0190c4d65ab4813463a76c5aa",
+          "name": "قلايات هوائية",
+          "products": [
+            {
+              "id": "1bdd08d1de7348df8ab9812a0663bccb",
+              "title": "قلاية هوائية رقمية 8 لتر",
+              "description": "صينية غير لاصقة | قلى صحي بالهواء الساخن ٣٦٠ درجة | ١٥٠٠ واط | تحكم في درجة الحرارة من ٨٠-٢٠٠ درجة مئوية | تحكم باللمس وشاشة رقمية | مؤقت قابل للتعديل حتى ٦٠ دقيقة",
+              "image": "uploads/gxfxxxhxgh-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "126e214300b445dea89bd568573d9db0",
+              "title": "قلاية هوائية متعددة الوظائف 15 لتر",
+              "description": "قلي صحي بالهواء الساخن ٣٦٠º | ١٧٠٠ وات | تحكم بدرجة الحرارة من ٨٠-٢٠٠ درجة مئوية | تحكم باللمس وشاشة رقمية | مؤقت قابل للتعديل حتى ٦٠ دقيقة",
+              "image": "uploads/SDfSDvsf-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "e016ec8480ba4d7fa7eb17c028abe014",
+              "title": "قلاية هوائية رقمية سعة 7.1 لتر",
+              "description": "تدوير هواء ساخن ٣٦٠º | قدرة ١٥٠٠ واط | تحكم بدرجة الحرارة من ٢٠-٢٠٠ درجة مئوية | نافذة لرؤية الطبخ | تحكم باللمس وشاشة رقمية | مؤقت قابل للتعديل.",
+              "image": "uploads/dzgtfgtf-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "b542040b50bb4112924837f2eb31fff7",
+              "title": "قلاية هوائية رقمية ١٠ لتر",
+              "description": "دوران الهواء الساخن ٣٦٠ درجة | ١٧٠٠ واط | تحكم في درجة الحرارة من ٤٠-٢٠٠ درجة مئوية | نافذة عرض للطهي | سلة مزدوجة | تحكم باللمس وشاشة رقمية | طهي بقدر مزدوج",
+              "image": "uploads/dsfsdfvvcdfvz-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "25893e8a798c4191b713781a2da8f7cd",
+              "title": "قلاية هوائية رقمية ١٠ لتر",
+              "description": "دوران الهواء الساخن ٣٦٠ درجة | ١٥٠٠ واط | تحكم باللمس وشاشة رقمية",
+              "image": "uploads/AF2000-768x725.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "96552e74488b4151b1f1d35d5c475f5e",
+          "name": "أجهزة الطهي",
+          "products": [
+            {
+              "id": "e610a96613b44d3fbb30b959522a9773",
+              "title": "طباخ متعدد الوظائف 2 في 1",
+              "description": "1700W | شاشة رقمية LED | صينية خبز غير لاصقة | وعاء داخلي غير لاصق | سلة قلي | أنبوب تسخين علوي من الفولاذ المقاوم للصدأ | دوران هواء ساخن 360°",
+              "image": "uploads/Untitled-1-1-768x543.webp",
+              "active": true
+            },
+            {
+              "id": "c007a073496f4a139f92d89927ac68cd",
+              "title": "جهاز طهي بالضغط كهربائي - ٦ لتر",
+              "description": "١٠٠٠ واط | شاشة رقمية | ١٢ قائمة محددة مسبقًا | وعاء طهي غير لاصق",
+              "image": "uploads/EPC6000D_800px-1-768x651.jpg",
+              "active": true
+            },
+            {
+              "id": "394bd08a135147afaa28205543139c70",
+              "title": "جهاز طهي بالضغط كهربائي - ٨ لتر",
+              "description": "١٢٠٠ واط | شاشة رقمية | ١٣ قائمة محددة مسبقًا | وعاء طهي غير لاصق",
+              "image": "uploads/EPC8000-copy-768x651.jpg",
+              "active": true
+            },
+            {
+              "id": "d3c588ef6e4b42f98cfb937fada3469c",
+              "title": "شواية كهربائية",
+              "description": "٢٠٠٠ واط | ألواح شواء مضلعة غير لاصقة | نظام مفصل عائم | مؤشرات ضوئية للطاقة والاستعداد | حجم اللوحة: ٢٩٠ × ٢٤٦ مم",
+              "image": "uploads/ECG1500_Open-768x660.jpg",
+              "active": true
+            },
+            {
+              "id": "fc2e4a337b0c4f429d62150164504670",
+              "title": "شواية",
+              "description": "٣٣٠ *٢٤٠م م من الألمنيوم المصبوب | ٢٠٠٠ واط | شواية مسطحة سوبر جامبو بزاوية ١٨٠ ° | صينية شواء كبيرة مع أخاديد عميقة | صواني غير لاصقة",
+              "image": "uploads/dzgfdfz-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "dd876acaffd24743b9b55543ae414b72",
+              "title": "ماكينة صنع الشاي وغلاية",
+              "description": "غلاية سعة ٢ لتر وماكينة صنع شاي سعة ٠.٨ لتر | غلاية لاسلكية تدور ٣٦٠ درجة | إبريق شاي مع فلتر من الفولاذ المقاوم للصدأ",
+              "image": "uploads/EKT2000-768x660.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "f34f77f6bee440d0ad1d458300b81299",
+          "name": "محضرات الطعام",
+          "products": [
+            {
+              "id": "52d0e342a572478eb44f53a1dea29371",
+              "title": "محضّر الطعام ٢ لتر",
+              "description": "٢٠٠٠ وات | سرعتين + نبض | موتور نحاسي ١٠٠٪ | شفرات قرص من الفولاذ المقاوم للصدأ | محضّر طعام متعدد الوظائف",
+              "image": "uploads/fdzbxfgjnxng-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "4df09de5676a46b78bf5171e60fff6c2",
+              "title": "عصارة الفواكه ١ لتر",
+              "description": "٨٠٠ واط | سرعتان | حماية من السخونة الزائدة | مصفاة شبكية من الفولاذ المقاوم للصدأ",
+              "image": "uploads/thfxtgyjhy-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "30751042066d41258a8818412dab858b",
+              "title": "عصارة بطيئة",
+              "description": "١٨٠ واط | محرك DC نحاسي | صانع سوربيه",
+              "image": "uploads/gfngchnjgyhjuh.webp",
+              "active": true
+            },
+            {
+              "id": "f9ac78addd7c40f2b6de6b9f5fdc917c",
+              "title": "مطحنة اللحم",
+              "description": "٢٠٠٠ وات | سرعتان + نبض | محرك نحاسي ١٠٠٪ | شفرات أقراص ستانلس ستيل | معالج طعام متعدد الوظائف",
+              "image": "uploads/fggdttfgdbdsgs-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "16900f1329524880b6586b4401a79594",
+              "title": "خلاط ١.٢ لتر",
+              "description": "٣٠٠ وات | سرعتان + وظيفة النبض | شفرات من الفولاذ المقاوم للصدأ | خلاط مع مفرمة ومطحنة",
+              "image": "uploads/fxgfzvxftgt-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "8f3276d1c5b2491fbbb96c20731d16ae",
+              "title": "خلاط ١.٥ لتر",
+              "description": "١٠٠٠ وات | سرعة قابلة للتعديل | شفرات من الفولاذ المقاوم للصدأ | وظيفة النبض/تكسير الثلج | سموذي",
+              "image": "uploads/mjbuiuiuhuh-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "eb01a33231b54198a690e0379c85b958",
+              "title": "خلاط رياضي ٦٠٠ مل",
+              "description": "٣٥٠ واط | خالٍ من BPA | شفرات من الفولاذ المقاوم للصدأ | زجاجتان",
+              "image": "uploads/wtrhrshgtfxh-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "567f869f27014c39a2e61c95be3e4c53",
+              "title": "خلاط قائم سعة ١٢ لتر",
+              "description": "خطافات عجين مزدوجة | ٢٠٠٠ واط | ٦ سرعات + نبض | محرك نحاسي ٪١٠٠",
+              "image": "uploads/ESM2003D.jpg",
+              "active": true
+            },
+            {
+              "id": "91b9e97b07e346dcafd7596270cd1116",
+              "title": "خلاط يدوي",
+              "description": "١٠٠٠ وات | وعاء تقطيع سعة ٥٠٠ مل | كوب خلط سعة ٧٠٠ مل | ٤ شفرات من الفولاذ المقاوم للصدأ لضمان خلط مثالي | قدم من الفولاذ المقاوم للصدأ قابلة للفصل، سهلة التنظيف",
+              "image": "uploads/zdxcszdcf-03-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "1f8d444ad9c04a4fa7ea5d88e15b66a5",
+              "title": "مفرمة طعام ٢.٣ لتر",
+              "description": "٤٠٠ وات | محرك نحاسي ١٠٠٪ | وعاء زجاجي سعة ٢.٣ لتر | وعاء من الفولاذ المقاوم للصدأ سعة ٢.٣ لتر | مفرمة طعام متعددة الوظائف",
+              "image": "uploads/tyhxfbgxdbgty-768x547.webp",
+              "active": true
+            },
+            {
+              "id": "633d1a4cd0d04dc0bdd5e32ca5d6896f",
+              "title": "خلاط ١.٥ لتر",
+              "description": "٥٠٠ وات  | سرعتان + وظيفة النبض | شفرات من الفولاذ المقاوم للصدأ | خلاط مع مطحنة",
+              "image": "uploads/EBL3500-768x768.jpg",
+              "active": true
+            },
+            {
+              "id": "beacb25e87b640aabb8ce9b6bf5b135a",
+              "title": "خلاط ١.٥ لتر",
+              "description": "١٢٠٠ وات | وعاء زجاجي سعة ١.٥ لتر | ٥ سرعات مع خاصية النبضات | عصير، سحق الثلج ونبض | محرك نحاسي ١٠٠ % | شفرات من الفولاذ المقاوم للصدأ | خلاط مع مفرمة ومطحنة",
+              "image": "uploads/EBL8500-768x768.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "318c06391a3945ac8368ef959f617434",
+          "name": "مكيفات الهواء",
+          "products": [
+            {
+              "id": "5a21e1288c6740f082c95e1c9314be69",
+              "title": "",
+              "description": "",
+              "image": "",
+              "active": false
+            },
+            {
+              "id": "60b749128e01478bb968350ffbd9c8c6",
+              "title": "مكيف جدار من النوع آشور",
+              "description": "",
+              "image": "uploads/Ashur.webp",
+              "active": true
+            },
+            {
+              "id": "94cac0b3d5e94c4886d4847d9817e52a",
+              "title": "مكيف جدار من النوع الصيفي",
+              "description": "",
+              "image": "uploads/Sumer.webp",
+              "active": true
+            },
+            {
+              "id": "5f29811e61314fad995c1dae079dbf56",
+              "title": "مكيف الجدار المنفصل من أكاد",
+              "description": "",
+              "image": "uploads/Akkad.webp",
+              "active": true
+            },
+            {
+              "id": "73dd4ad7146d45b19e01178b96bb1ad1",
+              "title": "مكيف هواء جدارين بابل",
+              "description": "",
+              "image": "uploads/Babylon.webp",
+              "active": true
+            },
+            {
+              "id": "012a43ac41b9494089a7f2da51328c99",
+              "title": "مكيف هواء قائم على الأرض تيجرس",
+              "description": "",
+              "image": "uploads/zsxsxxAz.webp",
+              "active": true
+            },
+            {
+              "id": "cbc6260d625d4b1484c5bfc2ac03ee51",
+              "title": "وحدة خارجية قائمة على الأرض",
+              "description": "",
+              "image": "uploads/dESfwerafefse.webp",
+              "active": true
+            },
+            {
+              "id": "3e56e83eadfc45a29ba672c535a7a4f8",
+              "title": "وحدة تكييف هواء قائمة على الأرض",
+              "description": "",
+              "image": "uploads/jkhhtddm.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "1695f53b7c834323810b5cd29e4f88a4",
+          "name": "مراوح",
+          "products": [
+            {
+              "id": "f0ecc3ae8e874045ac8c447ada4292a4",
+              "title": "مروحة سقف 56 بوصة",
+              "description": "٩٠ واط | محرك نحاسي ١٠٠٪ | حجم التدوير - ١٤٠٠ ملم | ٣ شفرات | ٥ سرعات مع منظم | محرك موفر للطاقة وقوي | تشغيل صامت | أداء عالٍ حتى عند الجهد المنخفض",
+              "image": "uploads/dxdvvf-03-03.webp",
+              "active": true
+            },
+            {
+              "id": "71210a35766e4e479c7bc6339f8332eb",
+              "title": "مروحة سقف ذهبية ٥٦ بوصة",
+              "description": "**٩٠ وات | نحاس ١٠٠٪ | حجم التهوية - ١٤٠٠ مم | ٣ شفرات | ٥ سرعات مع منظم | محرك موفر للطاقة ومتين | تشغيل صامت | أداء عالٍ حتى عند الجهد المنخفض**",
+              "image": "uploads/dxdvvf-03-03-1.webp",
+              "active": true
+            },
+            {
+              "id": "54fd094437c04574b88bacd7b2a1a619",
+              "title": "مروحة سقف فضية ٥٦ بوصة",
+              "description": "**٩٠ واط | نحاس ١٠٠٪ | حجم التدوير - ١٤٠٠ مم | ٣ شفرات | ٥ سرعات مع منظم | موتور موفر للطاقة | تشغيل هادئ | أداء عالي حتى عند الجهد المنخفض**",
+              "image": "uploads/rgsfxfgjvcn-03-03.webp",
+              "active": true
+            },
+            {
+              "id": "2cc7de8fc2f540c39086b39d330a75a2",
+              "title": "مروحة سقف فضية ٥٦ بوصة",
+              "description": "**٨٥ واط | نحاس ١٠٠٪ | حجم التدوير - ١٤٠٠ مم | ٣ شفرات | ٥ سرعات مع منظم | موتور موفر للطاقة | تشغيل هادئ | أداء عالي حتى عند الجهد المنخفض**",
+              "image": "uploads/ECF3000PRO-600px.jpg",
+              "active": true
+            },
+            {
+              "id": "81afd36c3dd246219236f7a3108fdd72",
+              "title": "مروحة سقف فضية ٥٦ بوصة",
+              "description": "٨٥ واط | مع جهاز التحكم عن بعد | نحاس ١٠٠٪ | حجم التدوير - ١٤٠٠ مم | ٥ شفرات | ٤ سرعات | موتور موفر للطاقة | تشغيل هادئ | أداء عالي حتى عند الجهد المنخفض",
+              "image": "uploads/ECF5000PRO-1-768x699.jpg",
+              "active": true
+            },
+            {
+              "id": "c60bed63b33648f98b40cb708abc6f12",
+              "title": "مروحة حائط ١٦ بوصة",
+              "description": "٧٠ وات | محرك نحاسي ١٠٠٪ | ٥ شفرات | تحكم بثلاث سرعات | رأس مائل قابل للتعديل | ميزة السحب بالحبل | عملية صامتة | تذبذب بزاوية واسعة",
+              "image": "uploads/EWF5300PRO.jpg",
+              "active": true
+            },
+            {
+              "id": "f48e3af3e2df4d15bed9f36264424236",
+              "title": "مروحة حائط ١٦ بوصة",
+              "description": "٥٥ وات | محرك نحاسي ١٠٠٪ | ٥ شفرات | تحكم بثلاث سرعات | رأس مائل قابل للتعديل | ميزة السحب بالحبل | عملية صامتة | تذبذب بزاوية واسعة",
+              "image": "uploads/fgddrtthd-03.webp",
+              "active": true
+            },
+            {
+              "id": "83250cf8fa4a48faa50af34c73194221",
+              "title": "مروحة حائط ١٦ بوصة'",
+              "description": "**مروحة حائط ١٦ بوصة** ٥٥ وات | محرك نحاسي ١٠٠٪ | ٥ شفرات | تحكم بسرعات متعددة | رأس مائل قابل للتعديل | ميزة السحب بالحبل | عملية صامتة | تذبذب بزاوية واسعة",
+              "image": "uploads/fvgdthhf-03.webp",
+              "active": true
+            },
+            {
+              "id": "5e35ccece1af474593806ffd72c1bbdb",
+              "title": "مروحة جدارية ١٨ بوصة",
+              "description": "٧٠ وات | محرك نحاسي ١٠٠٪ | ٥ شفرات | ٣ سرعات تحكم | رأس مروحة قابل للتعديل | ميزة السحب بالحبل | تشغيل صامت | تدوير بزاوية واسعة",
+              "image": "uploads/jhyfyughoih-03.webp",
+              "active": true
+            },
+            {
+              "id": "ff91aec1d05241f0b612df81728103b9",
+              "title": "مروحة حائط ٢٠ بوصة",
+              "description": "٧٥ وات | محرك نحاسي بالكامل ١٠٠٪ | ٥ شفرات | ٣ مستويات سرعة تحكم | رأس مروحة قابل للتعديل | خاصية السلك الجاذب | تشغيل صامت | دوران بزاوية واسعة",
+              "image": "uploads/hdtydutd-03.webp",
+              "active": true
+            },
+            {
+              "id": "6ce34e13a95b42a5a505c8c1d2cbee26",
+              "title": "مروحة وقوف ٢٠ بوصة",
+              "description": "١١٠ وات | محرك نحاسي ١٠٠٪ | تحكم بأربع سرعات | تذبذب بزاوية واسعة | عملية صامتة | ارتفاع قابل للتعديل | قاعدة دائرية ثقيلة",
+              "image": "uploads/ESF6500PRO.jpg",
+              "active": true
+            },
+            {
+              "id": "76fa2639fa4c449fa3ee556421134973",
+              "title": "مروحة وقوف ١٨ بوصة",
+              "description": "٧٠ وات | مؤقت ٦٠ دقيقة | محرك نحاسي ١٠٠٪ | رأس مائل قابل للتعديل | تحكم بأربع سرعات | تذبذب بزاوية واسعة | عملية صامتة | ارتفاع قابل للتعديل | قاعدة دائرية ثقيلة",
+              "image": "uploads/sdfgvtgv-03.webp",
+              "active": true
+            },
+            {
+              "id": "f447c03162b7457a8e1c89daf530ce9f",
+              "title": "مروحة وقوف ٢٠ بوصة",
+              "description": "٧٠ وات | مؤقت ٦٠ دقيقة | نحاسي ١٠٠٪ | رأس مائل قابل للتعديل | تحكم بأربع سرعات | تذبذب بزاوية واسعة | عملية صامتة | ارتفاع قابل للتعديل | قاعدة دائرية ثقيلة",
+              "image": "uploads/jyct-ghjc-03.webp",
+              "active": true
+            },
+            {
+              "id": "86ac4c569bac4f5d968d68ea7762e5e5",
+              "title": "مروحة شفط",
+              "description": "١٥ واط | يتم التركيب على النافذة | سعة تدفق هواء عالية | نحاس ٪١٠٠",
+              "image": "uploads/EXE2000.jpg",
+              "active": true
+            },
+            {
+              "id": "21b217eb2aed4eba891c4120f7de3285",
+              "title": "مروحة شفط ١٢ بوصة",
+              "description": "٤٧ واط | يتم التركيب على الحائط | سعة تدفق هواء عالية | نحاس ٪١٠٠",
+              "image": "uploads/EXE4000.jpg",
+              "active": true
+            },
+            {
+              "id": "724bc9e62aa449f2b0bb1b529c0fdbba",
+              "title": "مروحة مجارٍ هوائية مدمجة ٦ بوصة",
+              "description": "٥٥ واط | مروحة مجارٍ هوائية مدمجة | سعة تدفق هواء عالية | نحاس ٪١٠٠",
+              "image": "uploads/EXE7000.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "feed8668f3654adc8601e0c27947f9e8",
+          "name": "أجهزة التبريد",
+          "products": [
+            {
+              "id": "78420b7b286147f19b8c4e50a056bdc6",
+              "title": "براد مشروبات ٨٩ لتر",
+              "description": "تذويب تلقائي | تحكم إلكتروني في درجة الحرارة | باب زجاجي ثلاثي الطبقات | ضاغط عالي الكفاءة | مقبض مدمج",
+              "image": "uploads/dfzbfdxdfg-03.webp",
+              "active": true
+            },
+            {
+              "id": "c4ab37e966d74c06954afc65decb305f",
+              "title": "ثلاجة صغيرة ٩٠ لتر",
+              "description": " أبعاد الوحدة: ٤٥.٥ × ٤٢.٥ × ٨٤.٥ سم الألوان المتاحة: أبيض / فضي  ثلاجة مضادة للتجمد | تحكم ميكانيكي | مزودة بقفل ومفتاح | ضاغط عالي الكفاءة | مقبض مدمج",
+              "image": "uploads/dfzvfd.webp",
+              "active": false
+            },
+            {
+              "id": "ad64ed23b13241f7a19dcadf834f5463",
+              "title": "ثلاجة صغيرة ٩٠ لتر",
+              "description": "ثلاجة مضادة للتجمد | تحكم ميكانيكي | مزودة بقفل ومفتاح | ضاغط عالي الكفاءة | مقبض مدمج",
+              "image": "uploads/dfzvfd.webp",
+              "active": true
+            },
+            {
+              "id": "6584c06ec34c479a9317973ea6786c6a",
+              "title": "ثلاجة صغيرة ٩٥ لتر",
+              "description": "ثلاجة مضادة للتجمد | تحكم ميكانيكي | مزودة بقفل ومفتاح | ضاغط عالي الكفاءة | مقبض مدمج",
+              "image": "uploads/dvDXFdfvzzzzwa.webp",
+              "active": true
+            },
+            {
+              "id": "16eeebc8fd784bfa812ca1e6880692b6",
+              "title": "ثلاجة عرض عمودية ٣١٠ لتر",
+              "description": "مكثف خارجي | عجلات متحركة | كفاءة عالية في استهلاك الطاقة | باب زجاجي مزدوج الطبقات",
+              "image": "uploads/bvhjvkhvjkb.webp",
+              "active": true
+            },
+            {
+              "id": "a0754327dc534c608999d8c3b66ff258",
+              "title": "ثلاجة عرض عمودية ٣٨٠ لتر",
+              "description": "مكثف خارجي | عجلات متحركة | كفاءة عالية في استهلاك الطاقة | باب زجاجي مزدوج الطبقات",
+              "image": "uploads/vzdtgvsdtfr.webp",
+              "active": true
+            },
+            {
+              "id": "585a5b8ef0054bc786f0560c595072c5",
+              "title": "ثلاجة صندوقية ١٩٧ لتر، ٢٥٨ لتر و٣٦٨ لتر",
+              "description": "مكثف خارجي | عجلات متحركة | مزودة بقفل ومفتاح | ضاغط عالي الكفاءة | مقبض خارجي",
+              "image": "uploads/mjhyyuiu-03.webp",
+              "active": true
+            },
+            {
+              "id": "51a819a726384e1bbc73fc9c80ff7413",
+              "title": "براد مياة",
+              "description": "طاولة سطحية | ٥٨٥ وات | ساخن | عادي | بارد",
+              "image": "uploads/zzedsfrtre-03.webp",
+              "active": true
+            },
+            {
+              "id": "7f47c54d42824f47928f02c6002944c8",
+              "title": "براد مياة",
+              "description": "ثلاجة | ٦٠٠ وات | ساخن | عادي | بارد",
+              "image": "uploads/sdfefrggc-03.webp",
+              "active": true
+            },
+            {
+              "id": "db7badc7ac83443da53489954cda725e",
+              "title": "براد مياة",
+              "description": "ثلاجة | ٦٠٠ وات | ساخن | عادي | بارد",
+              "image": "uploads/r-03.webp",
+              "active": true
+            },
+            {
+              "id": "19875b3c99244cfd9e2aeb0587181428",
+              "title": "براد مياة",
+              "description": "ثلاجة | ٦٠٠ وات | ساخن | عادي | بارد",
+              "image": "uploads/golcthggf-03.webp",
+              "active": true
+            },
+            {
+              "id": "3337ad81d81d4d52984712b00c3f92d2",
+              "title": "براد مياة",
+              "description": "تعبئة من الأسفل | ٥٨٥ وات | ساخن | عادي | بارد",
+              "image": "uploads/dsfezrgtrdf-03.webp",
+              "active": true
+            },
+            {
+              "id": "aceb8862749c4c3687f32a591924db5f",
+              "title": "براد مياة",
+              "description": "موزع أنابيب | ٥٨٥ وات | نظام تصفية UF | ساخن | عادي | بارد",
+              "image": "uploads/kjkuftyhsdrd-03.webp",
+              "active": true
+            },
+            {
+              "id": "8b69b05589c346128bb412321c2e20bd",
+              "title": "براد مياة",
+              "description": "موزع مياه مع صانع ثلج | صنع ثلج سريع ١٠ كجم/يوم | لوحة تحكم لمس كاملة | ساخن | عادي | بارد",
+              "image": "uploads/fjjshfuhurh.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "11c49e6af98e4848b8ffecc1e0887205",
+          "name": "أجهزة الكي",
+          "products": [
+            {
+              "id": "bc52f0803d634248b23e6b1649f4babe",
+              "title": "مكواة بخارية للملابس 3 لتر",
+              "description": "| يقضي على التجاعيد | ينعش الأقمشة | يقلل البكتيريا ويزيل الروائح",
+              "image": "uploads/EGS3000PRO-997x1024.jpg",
+              "active": true
+            },
+            {
+              "id": "113a2bedf1124831826ba7e87f7b6d57",
+              "title": "مكواة بخارية للملابس 2 لتر",
+              "description": "| يقضي على التجاعيد | ينعش الأقمشة | يقلل البكتيريا ويزيل الروائح",
+              "image": "uploads/hztdzxbccytf-03.webp",
+              "active": true
+            },
+            {
+              "id": "51656aa0325145d48c4bba8bcc26c7e4",
+              "title": "مكواة بخارية للملابس 1.5 لتر",
+              "description": "| يقضي على التجاعيد | ينعش الأقمشة | يقلل البكتيريا ويزيل الروائح",
+              "image": "uploads/dsjbichsdmcs-03.webp",
+              "active": true
+            },
+            {
+              "id": "a0115163119b470e925f19191ee24755",
+              "title": "مكواة بخارية للملابس 2.7 لتر",
+              "description": "| يقضي على التجاعيد | ينعش الأقمشة | يقلل البكتيريا ويزيل الروائح",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-7.webp",
+              "active": true
+            },
+            {
+              "id": "ef341c8a56e6474f82cd4fadc01db5f1",
+              "title": "مكواة بخارية",
+              "description": "لوح ضغط كبير 32” × 10.5” | خزان ماء بسعة 500 مل | 2200 واط | درجة حرارة 80-200°C | بخار قوي | شاشة رقمية",
+              "image": "uploads/ckjbuiceuih.webp",
+              "active": true
+            },
+            {
+              "id": "7fd7ffd107484d7599d5dd6cc79e9c5f",
+              "title": "مولدة بخار",
+              "description": "خزان ماء كبير بسعة 1.1 لتر | تسخين سريع | قاعدة مقاومة للالتصاق | خزان ماء قابل للفصل | تخزين سلك الطاقة",
+              "image": "uploads/xfhbfbgfgb-03.webp",
+              "active": true
+            },
+            {
+              "id": "dc3c13b6f1584edf8513f70bfd866e29",
+              "title": "مكواة بخارية",
+              "description": "خزان ماء بسعة 380 مل | 2200 واط | جاف/بخار/رذاذ/بخار مكثف/بخار رأسي | ضوء مؤشر | وظيفة مضادة للرواسب، مضادة للتقطير والتنظيف الذاتي | قاعدة مقاومة للالتصاق | يشمل كوب قياس سعة 100 مل",
+              "image": "uploads/kjbysgdyds-03.webp",
+              "active": true
+            },
+            {
+              "id": "ce5ff898dd774225a6106bcf7dea3b9f",
+              "title": "مكواة بخارية",
+              "description": "خزان ماء بسعة 300 مل | 2200 واط | جاف/بخار/رذاذ/بخار مكثف/بخار رأسي | ضوء مؤشر | وظيفة مضادة للرواسب، مضادة للتقطير والتنظيف الذاتي | قاعدة مقاومة للالتصاق | يشمل كوب قياس سعة 100 مل",
+              "image": "uploads/dfnbdhjsb-03.webp",
+              "active": true
+            },
+            {
+              "id": "4ad66918f832484c83629b7bef3a5e24",
+              "title": "مكواة بخارية",
+              "description": "خزان ماء بسعة 300 مل | 2200 واط | جاف/بخار/رذاذ/بخار مكثف/بخار رأسي | ضوء مؤشر | وظيفة مضادة للرواسب، مضادة للتقطير والتنظيف الذاتي | قاعدة مقاومة للالتصاق | يشمل كوب قياس سعة 100 مل",
+              "image": "uploads/dfgzdzz-03.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "ef5a7d7ed8934767a9467d03000993db",
+          "name": "منظفات الضغط العالي",
+          "products": [
+            {
+              "id": "18e3563a9dbc479dba82d3e3561ebab8",
+              "title": "",
+              "description": "",
+              "image": "",
+              "active": false
+            },
+            {
+              "id": "e1014da2c4bb482295d295285e459617",
+              "title": "منظفة ضغط عالي",
+              "description": "| ضغط عالي 140 بار | محرك غير تلامسي | بكرة خرطوم عملية | 3 مضخات بومب محورية ذات لوحة مائلة | مكابس من الفولاذ المقاوم للصدأ المقسى | نظام إيقاف كامل | واقي حراري ذاتي إعادة الضبط | مزودة بعجلات ومقبض",
+              "image": "uploads/dfzvxfbf.webp",
+              "active": true
+            },
+            {
+              "id": "ddc8b1c8e74d47e0ae99e85224e09536",
+              "title": "منظفة ضغط عالي",
+              "description": "| ضغط عالي 130 بار | محرك فرش كربوني | مضخة محورية ذات لوحة مائلة | مكابس من الفولاذ المقاوم للصدأ المقسى | نظام إيقاف كامل | واقي حراري إعادة الضبط ذاتي | مزودة بعجلات ومقبض",
+              "image": "uploads/dvczfvdfcd-03.webp",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "4362eb81f49d4294a856d00bd5eea58f",
+          "name": "العناية الشخصية",
+          "products": [
+            {
+              "id": "d4036409d98e407dad583f0b8cc0087e",
+              "title": "مجفف شعر",
+              "description": "بقوة ٢٤٠٠ وات | مكثف وموزع | ٣ إعدادات للحرارة",
+              "image": "uploads/EHD3000-1.jpg",
+              "active": true
+            },
+            {
+              "id": "5b3c3526431348539fc28e5a1a7bced1",
+              "title": "جهاز فرد الشعر",
+              "description": "جهاز لفرد الشعر الرطب والجاف | تسخين سريع خلال ٣٠ ثانية | سلك بطول ٣ أمتار | ٥٥ واط",
+              "image": "uploads/EHS6000S.jpg",
+              "active": true
+            },
+            {
+              "id": "d4d3fa3834724e538ed410a5a1089740",
+              "title": "مصفف شعر دوار بالهواء الساخن",
+              "description": "٣ في ١ : فرشاة دوارة مقاس ٤٠ مم | فرشاة دوارة مقاس ٥٠ مم | مكثف | سلك بطول ٣ أمتار | ١٠٠٠ واط",
+              "image": "uploads/EHS4000R.jpg",
+              "active": true
+            },
+            {
+              "id": "26dd84fd454d4ee4a9dae0333874e196",
+              "title": "مصفف شعر بالهواء الساخن",
+              "description": "٤ في ١ | فرشاة للتمشيط قابلة للإغلاق | وفرشاة دوارة | ومكثف | وفرشاة للتمشيط | ١٢٠٠ واط",
+              "image": "uploads/EHS2000-1.jpg",
+              "active": true
+            },
+            {
+              "id": "160df388487e4c2dadb5972e7ba06b6e",
+              "title": "جهاز ليزر إزالة الشعر من إليكتا",
+              "description": "- يعمل بالنظامين اليدوي والاوتوماتيكي. - يحتوي على ٥ درجات للتحكم بقوة الومضات. - امن جدا ومخصص للعمل بسهولة في المنزل وعلى جميع درجات لون البشرة. - سهولة الاستخدام والتحكم ومن دون الم بسبب نظام التبريد التلقائي الديناميكي. - مزود بعدستين لتغطية جميع مناطق الجسم",
+              "image": "uploads/ELZHR6001-image.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "95121603363f45b1b373da0887cb0b50",
+          "name": "منتجات التدفئة",
+          "products": [
+            {
+              "id": "4813fa1ace5349e2842512fc37a4a4df",
+              "title": "جهاز تدفئة بالزيت - ١١ ريشة",
+              "description": "بقوة ٢٩٠٠ وات | ٥ إعدادات للطاقة | عجلات وشماعة مناشف",
+              "image": "uploads/EOR1100.jpg",
+              "active": true
+            },
+            {
+              "id": "c1dd14774c5f4bbcb3820a41d7e30787",
+              "title": "جهاز تدفئة بالزيت - ١٣ ريشة",
+              "description": "بقوة ٢٩٠٠ وات | ٥ إعدادات للطاقة | عجلات وشماعة مناشف",
+              "image": "uploads/EOR1100.jpg",
+              "active": true
+            },
+            {
+              "id": "1d5e9e9f591a4ba6a0097ff22cf6eb64",
+              "title": "جهاز تدفئة بالزيت - ١٥ ريشة",
+              "description": "بقوة ٢٩٠٠ وات | ٥ إعدادات للطاقة | عجلات وشماعة مناشف",
+              "image": "uploads/EOR1100.jpg",
+              "active": true
+            },
+            {
+              "id": "3494a12d5b4e4d90976bc24bb84c4c53",
+              "title": "جهاز تدفئة بالزيت - ١٠ ريشة",
+              "description": "جهاز تدفئة بالزيت - ١٠ ريشات | بجهاز تحكم عن بُعد | بقوة ٢٥٠٠ وات | شاشة رقمية - تحكم باللمس | ٣ إعدادات للطاقة",
+              "image": "uploads/EOR3000D.jpg",
               "active": true
             }
           ]
@@ -490,6 +1810,32 @@
               "name": "",
               "description": "",
               "image": "",
+              "active": false
+            }
+          ]
+        },
+        {
+          "id": "34dc261973b34676a1719f2339f37920",
+          "name": "غسالة صحون",
+          "products": [
+            {
+              "id": "6eb18205c9494c348a2628238d2b55ee",
+              "title": "غسالة صحون",
+              "description": "",
+              "image": "uploads/Hoover_DishWasher_650x613px.jpg",
+              "active": true
+            }
+          ]
+        },
+        {
+          "id": "2e0793930aa64d7996d1937fa38a996f",
+          "name": "غسالة ملابس",
+          "products": [
+            {
+              "id": "9e981ac1e4944fa2a0e47407d7492a3f",
+              "title": "غسالة ملابس",
+              "description": "",
+              "image": "uploads/Hoover_Washingmachine_650x613px.jpg",
               "active": true
             }
           ]
@@ -499,7 +1845,7 @@
     {
       "id": "brand11",
       "name": "ALPACA",
-      "description":"تُعرف <strong>Alpaca</strong> بـ<strong>مدافئها عالية الجودة</strong> التي توفر <strong>الدفء والراحة</strong> في فصل الشتاء. كوكلاء <strong>محليين</strong> في العراق، نوفر منتجاتها لضمان بيئة منزلية آمنة ودافئة.",
+      "description": "تُعرف <strong>Alpaca</strong> بـ<strong>مدافئها عالية الجودة</strong> التي توفر <strong>الدفء والراحة</strong> في فصل الشتاء. كوكلاء <strong>محليين</strong> في العراق، نوفر منتجاتها لضمان بيئة منزلية آمنة ودافئة.",
       "logo": "logos/ALPACA.webp",
       "categories": [
         {
@@ -512,6 +1858,26 @@
               "name": "",
               "description": "",
               "image": "",
+              "active": false
+            }
+          ]
+        },
+        {
+          "id": "d470d0c2538248bf8e33dd8e18eb6a60",
+          "name": "مدفآت",
+          "products": [
+            {
+              "id": "134de5ef6b4e4c66b28ceb59f36e8889",
+              "title": "مدفئة نفطية",
+              "description": "حجم متوسط",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-9.webp",
+              "active": true
+            },
+            {
+              "id": "72abe2db62144513bf326c550ff612a6",
+              "title": "مدفئة نفطية",
+              "description": "حجم كبير",
+              "image": "uploads/Delonghi_EC785-GB_650x613px-9.webp",
               "active": true
             }
           ]
